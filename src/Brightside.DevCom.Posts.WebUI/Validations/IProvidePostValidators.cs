@@ -1,26 +1,33 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="PostWasUpdated.cs" company="">
+// <copyright file="IProvidePostValidators.cs" company="">
 //   
 // </copyright>
 // <summary>
-//   The post was updated.
+//   The ProvidePostValidators interface.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace Brightside.DevCom.Events.Posts
+namespace Brightside.DevCom.Posts.WebUI.Validations
 {
     using Brightside.DevCom.Entities.Posts;
 
+    using FluentValidation;
+
     /// <summary>
-    ///     The post was updated.
+    ///     The ProvidePostValidators interface.
     /// </summary>
-    public class PostWasUpdated
+    public interface IProvidePostValidators
     {
         #region Public Properties
 
         /// <summary>
-        ///     Gets or sets the post.
+        ///     Gets the create.
         /// </summary>
-        public Post Post { get; set; }
+        IValidator<Post> Create { get; }
+
+        /// <summary>
+        ///     Gets the update.
+        /// </summary>
+        IValidator<Post> Update { get; }
 
         #endregion
     }

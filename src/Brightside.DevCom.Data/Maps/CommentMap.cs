@@ -10,7 +10,7 @@ namespace Brightside.DevCom.Data.Maps
 {
     using System.Data.Entity.ModelConfiguration;
 
-    using Brightside.DevCom.Entities.Example;
+    using Brightside.DevCom.Entities.Posts;
 
     /// <summary>
     ///     The comment map.

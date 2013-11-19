@@ -25,6 +25,13 @@
     <MSBuild Projects="Brightside.DevCom.sln" Properties="Configuration=$(Configuration)" Targets="Build"/>
     <Message Text="BUILT BRIGHTSIDE CONFIG"></Message>
   </Target>
+  
+  <Target Name="knockout">
+    <ItemGroup>
+      <Knockout Include="Knockout" />
+    </ItemGroup>
+    <CopyService Prefix="Brightside.DevCom" AC="@(Knockout)" Configuration="$(Configuration)" FrontendFolder="$(WebPluginLocation)" Folder="Knockout" JavascriptPluginFolder="$(JavascriptPluginLocation)" LessPluginFolder="$(LessPluginLocation)" />
+  </Target>
 
   <Target Name="posts">
     <ItemGroup>
@@ -33,6 +40,6 @@
     <CopyService Prefix="Brightside.DevCom" AC="@(Posts)" Configuration="$(Configuration)" FrontendFolder="$(WebPluginLocation)" Folder="Posts" JavascriptPluginFolder="$(JavascriptPluginLocation)" LessPluginFolder="$(LessPluginLocation)" />
   </Target>
 
-  <Target Name="copy-plugins" DependsOnTargets="build-brightside-devcom;posts;" />
+  <Target Name="copy-plugins" DependsOnTargets="build-brightside-devcom;posts;knockout;" />
   <Target Name="all-brightside-devcom" DependsOnTargets="build-brightside-devcom;copy-plugins;"/>
 </Project>

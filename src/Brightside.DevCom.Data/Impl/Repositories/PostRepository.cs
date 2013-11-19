@@ -8,7 +8,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace Brightside.DevCom.Data.Impl.Repositories
 {
-    using Brightside.DevCom.Entities.Example;
+    using Brightside.DevCom.Entities.Posts;
     using Brightside.DevCom.Infrastructure.Data;
     using Brightside.DevCom.Infrastructure.Data.Repositories.Impl;
 

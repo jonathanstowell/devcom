@@ -13,7 +13,7 @@ namespace Brightside.DevCom.Service.Impl
     using System.Linq;
 
     using Brightside.DevCom.Data;
-    using Brightside.DevCom.Entities.Example;
+    using Brightside.DevCom.Entities.Posts;
 
     /// <summary>
     ///     The post service.

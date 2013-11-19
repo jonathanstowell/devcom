@@ -1,33 +1,31 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="PostMap.cs" company="">
+// <copyright file="CreatePostValidator.cs" company="">
 //   
 // </copyright>
 // <summary>
-//   The post map.
+//   The create post validator.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace Brightside.DevCom.Data.Maps
+namespace Brightside.DevCom.Posts.WebUI.Validations.Validators
 {
-    using System.Data.Entity.ModelConfiguration;
-
     using Brightside.DevCom.Entities.Posts;
 
+    using FluentValidation;
+
     /// <summary>
-    ///     The post map.
+    ///     The create post validator.
     /// </summary>
-    public class PostMap : EntityTypeConfiguration<Post>
+    public class CreatePostValidator : AbstractValidator<Post>
     {
         #region Constructors and Destructors
 
         /// <summary>
-        ///     Initializes a new instance of the <see cref="PostMap" /> class.
+        ///     Initializes a new instance of the <see cref="CreatePostValidator" /> class.
         /// </summary>
-        public PostMap()
+        public CreatePostValidator()
         {
-            this.HasKey(t => t.Id);
-
-            this.Property(p => p.Author).IsRequired().HasMaxLength(100);
-            this.Property(p => p.Content).IsRequired();
+            this.RuleFor(x => x.Author).NotEmpty();
+            this.RuleFor(x => x.Content).NotEmpty();
         }
 
         #endregion

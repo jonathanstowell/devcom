@@ -1,42 +1,34 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="Comment.cs" company="">
+// <copyright file="PostViewModel.cs" company="">
 //   
 // </copyright>
 // <summary>
-//   The comment.
+//   The post view model.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace Brightside.DevCom.Entities.Posts
+namespace Brightside.DevCom.Posts.WebUI.Models
 {
-    using Brightside.DevCom.Infrastructure.Entities;
-    using Brightside.DevCom.Infrastructure.Entities.Impl;
-
-    using Newtonsoft.Json;
-
     /// <summary>
-    ///     The comment.
+    ///     The post view model.
     /// </summary>
-    public class Comment : BusinessObject<Comment>, IBusinessObject<Comment>
+    public class PostViewModel
     {
         #region Public Properties
 
         /// <summary>
         ///     Gets or sets the author.
         /// </summary>
-        [JsonProperty(PropertyName = "author")]
         public string Author { get; set; }
 
         /// <summary>
         ///     Gets or sets the content.
         /// </summary>
-        [JsonProperty(PropertyName = "content")]
         public string Content { get; set; }
 
         /// <summary>
-        ///     Gets or sets the post.
+        ///     Gets or sets the id.
         /// </summary>
-        [JsonProperty(PropertyName = "post")]
-        public virtual Post Post { get; set; }
+        public int Id { get; set; }
 
         #endregion
     }

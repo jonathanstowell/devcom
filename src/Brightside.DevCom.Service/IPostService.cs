@@ -10,7 +10,7 @@ namespace Brightside.DevCom.Service
 {
     using System.Collections.Generic;
 
-    using Brightside.DevCom.Entities.Example;
+    using Brightside.DevCom.Entities.Posts;
 
     /// <summary>
     ///     The PostService interface.

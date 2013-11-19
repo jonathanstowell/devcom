@@ -1,20 +1,19 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="IPostRepository.cs" company="">
+// <copyright file="PostHub.cs" company="">
 //   
 // </copyright>
 // <summary>
-//   The PostRepository interface.
+//   The post hub.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace Brightside.DevCom.Data
+namespace Brightside.DevCom.Posts.WebUI.Hubs
 {
-    using Brightside.DevCom.Entities.Posts;
-    using Brightside.DevCom.Infrastructure.Data.Repositories;
+    using Microsoft.AspNet.SignalR;
 
     /// <summary>
-    ///     The PostRepository interface.
+    ///     The post hub.
     /// </summary>
-    public interface IPostRepository : IRepository<Post>
+    public class PostHub : Hub
     {
     }
 }

@@ -6,9 +6,9 @@
 //   The post was created.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace Brightside.DevCom.Events.Post
+namespace Brightside.DevCom.Events.Posts
 {
-    using Brightside.DevCom.Entities.Example;
+    using Brightside.DevCom.Entities.Posts;
 
     /// <summary>
     ///     The post was created.

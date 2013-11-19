@@ -11,7 +11,7 @@ namespace Brightside.DevCom.Data.Impl
     using System.Data.Entity;
 
     using Brightside.DevCom.Data.Maps;
-    using Brightside.DevCom.Entities.Example;
+    using Brightside.DevCom.Entities.Posts;
 
     /// <summary>
     ///     The brightside context.

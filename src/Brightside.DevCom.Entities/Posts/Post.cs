@@ -6,7 +6,7 @@
 //   The post.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace Brightside.DevCom.Entities.Example
+namespace Brightside.DevCom.Entities.Posts
 {
     using System.Collections.Generic;
 
