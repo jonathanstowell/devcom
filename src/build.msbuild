@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project DefaultTargets = "all-brightside-devcom" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project=".\msbuild\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets"/>
+  <UsingTask AssemblyFile="Brightside.DevCom.Build\bin\Debug\Brightside.DevCom.Build.dll" TaskName="CopyService"/>
+  <UsingTask AssemblyFile="Brightside.DevCom.Build\bin\Debug\Brightside.DevCom.Build.dll" TaskName="CopyJavascriptPlugin"/>
+  <PropertyGroup>
+    <ProductName>Brightside DevCom</ProductName>
+    <ProjectType>Share Libaries</ProjectType>
+    <PublisherName>Brightside</PublisherName>
+    <BuildFolder></BuildFolder>
+    <ExportFolder></ExportFolder>
+    <CustomViewsFolder></CustomViewsFolder>
+    <ConfigMergerExePath></ConfigMergerExePath>
+    <Client></Client>
+    <OrganisationName></OrganisationName>
+    <ReleaseType></ReleaseType>
+    <Configuration Condition=" $(Configuration)=='' ">Debug</Configuration>
+    <BuildRequired Condition=" $(BuildRequired)=='' ">true</BuildRequired>
+    <WebPluginLocation>Brightside.DevCom.WebUI\Plugins</WebPluginLocation>
+    <JavascriptPluginLocation>Brightside.DevCom.WebUI\js\mylibs\plugins</JavascriptPluginLocation>
+    <LessPluginLocation>Brightside.DevCom.WebUI\css\less\mylibs\plugins</LessPluginLocation>
+  </PropertyGroup>
+
+  <Target Name="build-brightside-devcom">
+    <MSBuild Projects="Brightside.DevCom.sln" Properties="Configuration=$(Configuration)" Targets="Build"/>
+    <Message Text="BUILT BRIGHTSIDE CONFIG"></Message>
+  </Target>
+
+  <Target Name="posts">
+    <ItemGroup>
+      <Posts Include="Posts" />
+    </ItemGroup>
+    <CopyService Prefix="Brightside.DevCom" AC="@(Posts)" Configuration="$(Configuration)" FrontendFolder="$(WebPluginLocation)" Folder="Posts" JavascriptPluginFolder="$(JavascriptPluginLocation)" LessPluginFolder="$(LessPluginLocation)" />
+  </Target>
+
+  <Target Name="copy-plugins" DependsOnTargets="build-brightside-devcom;posts;" />
+  <Target Name="all-brightside-devcom" DependsOnTargets="build-brightside-devcom;copy-plugins;"/>
+</Project>

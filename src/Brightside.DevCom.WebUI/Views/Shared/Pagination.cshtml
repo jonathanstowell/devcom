@@ -1,0 +1,21 @@
+﻿<ul class="pagination pull-right hide" data-bind="visible: data().length > 0, css: { 'hide': data().length == 0 }">
+    <li class="prev-container hand" data-bind="css: { disabled: pageNumber() === 1 }, click: function (e) { navigate('prev') }">
+        <a class="prev">← Previous</a>
+    </li>
+    <li class="first-container hand" data-bind="css: { disabled: pageNumber() === 1 }, click: function (e) { navigate('first') }">
+        <a class="first">First</a>
+    </li>
+    <!-- ko foreach: pages -->
+    <li class="hand" data-bind="css: { active: $parent.pageNumber() == $data }, click: function (e) { $parent.navigate($data) }">
+        <a title="View Page $data">
+            <span data-bind="text: $data"></span>
+        </a>
+    </li>
+    <!-- /ko -->
+    <li class="last-container hand" data-bind="css: { disabled: pageNumber() === pageCount() }, click: function (e) { navigate('last') }">
+        <a class="last">Last</a>
+    </li>
+    <li class="next-container hand" data-bind="css: { disabled: pageNumber() === pageCount() }, click: function (e) { navigate('next') }">
+        <a class="next">Next →</a>
+    </li>
+</ul>

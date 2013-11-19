@@ -1,0 +1,41 @@
+﻿<section id="post-creation">
+    <div class="modal fade" id="post-creation-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Post Creation</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group" data-bind="validationElement: author">
+                            <label class="col-lg-2 control-label" for="inputAuthor">Author</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="inputAuthor" placeholder="Author" data-bind="value: author">
+                            </div>
+                        </div>
+
+                        <div class="form-group" data-bind="validationElement: content">
+                            <label class="col-lg-2 control-label" for="inputContent">Content</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="inputContent" placeholder="Content" data-bind="value: content">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bind="click: create">Create</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@{
+    using (this.Html.BeginScriptContext())
+    {
+        this.Html.AddScriptFile("~/js/mylibs/plugins/post.create.js");
+    }
+
+}

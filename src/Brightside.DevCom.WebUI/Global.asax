@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Brightside.DevCom.WebUI.MvcApplication" Language="C#" %>

@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.WebUI", "Brightside.DevCom.WebUI\Brightside.DevCom.WebUI.csproj", "{1C979DF4-8A01-45B3-9DDA-04570F7F9DD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2515E2F2-C494-49AA-93DD-1C6B36086A44}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.Data", "Brightside.DevCom.Data\Brightside.DevCom.Data.csproj", "{9B82B357-B1C1-4465-A6C1-B365030A16A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.Entities", "Brightside.DevCom.Entities\Brightside.DevCom.Entities.csproj", "{7ED5ED07-5BC9-4FBA-94DF-2A6C2F5C22E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.Infrastructure.Web", "Brightside.DevCom.Infrastructure.Web\Brightside.DevCom.Infrastructure.Web.csproj", "{327AB91F-FF66-410B-AC3D-E274710534CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.Infrastructure", "Brightside.DevCom.Infrastructure\Brightside.DevCom.Infrastructure.csproj", "{5828CD00-0DCB-4968-967C-E006A4A66129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E4CE229A-464F-4A3E-B0AD-E238657898A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A9D8BC7C-49F1-46CA-A9C5-DE96EB72EADE}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		build.msbuild = build.msbuild
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.Build", "Brightside.DevCom.Build\Brightside.DevCom.Build.csproj", "{C89FBE22-B3FC-405D-A5F1-CA72A568C187}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{F2343401-B3ED-47FA-BD74-C00F03910B2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Posts", "Posts", "{941BB75F-ABD2-41B4-9602-47FAF768DC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.Posts.WebUI", "Brightside.DevCom.Example.WebUI\Brightside.DevCom.Posts.WebUI.csproj", "{5740C8F1-6BE7-4450-A5CE-AD016545CA1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.Posts.WebUI.Tests", "Brightside.DevCom.Example.WebUI.Tests\Brightside.DevCom.Posts.WebUI.Tests.csproj", "{4598EC4D-62B3-4E2F-9013-A1FE03F0E31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.Service", "Brightside.DevCom.Service\Brightside.DevCom.Service.csproj", "{FC4F7122-F7A6-470E-B974-55A6F8F4DB09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightside.DevCom.Events", "Brightside.DevCom.Events\Brightside.DevCom.Events.csproj", "{D1659571-2F59-4A81-AF97-1C8BB975EC91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C979DF4-8A01-45B3-9DDA-04570F7F9DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C979DF4-8A01-45B3-9DDA-04570F7F9DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C979DF4-8A01-45B3-9DDA-04570F7F9DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C979DF4-8A01-45B3-9DDA-04570F7F9DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B82B357-B1C1-4465-A6C1-B365030A16A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B82B357-B1C1-4465-A6C1-B365030A16A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B82B357-B1C1-4465-A6C1-B365030A16A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B82B357-B1C1-4465-A6C1-B365030A16A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED5ED07-5BC9-4FBA-94DF-2A6C2F5C22E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED5ED07-5BC9-4FBA-94DF-2A6C2F5C22E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED5ED07-5BC9-4FBA-94DF-2A6C2F5C22E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED5ED07-5BC9-4FBA-94DF-2A6C2F5C22E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327AB91F-FF66-410B-AC3D-E274710534CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327AB91F-FF66-410B-AC3D-E274710534CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327AB91F-FF66-410B-AC3D-E274710534CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327AB91F-FF66-410B-AC3D-E274710534CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5828CD00-0DCB-4968-967C-E006A4A66129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5828CD00-0DCB-4968-967C-E006A4A66129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5828CD00-0DCB-4968-967C-E006A4A66129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5828CD00-0DCB-4968-967C-E006A4A66129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89FBE22-B3FC-405D-A5F1-CA72A568C187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89FBE22-B3FC-405D-A5F1-CA72A568C187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89FBE22-B3FC-405D-A5F1-CA72A568C187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89FBE22-B3FC-405D-A5F1-CA72A568C187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5740C8F1-6BE7-4450-A5CE-AD016545CA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5740C8F1-6BE7-4450-A5CE-AD016545CA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5740C8F1-6BE7-4450-A5CE-AD016545CA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5740C8F1-6BE7-4450-A5CE-AD016545CA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4598EC4D-62B3-4E2F-9013-A1FE03F0E31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4598EC4D-62B3-4E2F-9013-A1FE03F0E31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4598EC4D-62B3-4E2F-9013-A1FE03F0E31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4598EC4D-62B3-4E2F-9013-A1FE03F0E31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4F7122-F7A6-470E-B974-55A6F8F4DB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4F7122-F7A6-470E-B974-55A6F8F4DB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4F7122-F7A6-470E-B974-55A6F8F4DB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4F7122-F7A6-470E-B974-55A6F8F4DB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1659571-2F59-4A81-AF97-1C8BB975EC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1659571-2F59-4A81-AF97-1C8BB975EC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1659571-2F59-4A81-AF97-1C8BB975EC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1659571-2F59-4A81-AF97-1C8BB975EC91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5828CD00-0DCB-4968-967C-E006A4A66129} = {E4CE229A-464F-4A3E-B0AD-E238657898A3}
+		{327AB91F-FF66-410B-AC3D-E274710534CE} = {E4CE229A-464F-4A3E-B0AD-E238657898A3}
+		{C89FBE22-B3FC-405D-A5F1-CA72A568C187} = {A9D8BC7C-49F1-46CA-A9C5-DE96EB72EADE}
+		{941BB75F-ABD2-41B4-9602-47FAF768DC25} = {F2343401-B3ED-47FA-BD74-C00F03910B2C}
+		{5740C8F1-6BE7-4450-A5CE-AD016545CA1C} = {941BB75F-ABD2-41B4-9602-47FAF768DC25}
+		{4598EC4D-62B3-4E2F-9013-A1FE03F0E31E} = {941BB75F-ABD2-41B4-9602-47FAF768DC25}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal

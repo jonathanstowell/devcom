@@ -1,0 +1,11 @@
+﻿@model Brightside.DevCom.WebUI.Models.NavigationViewModel
+
+@this.Html.RenderNavigation(this.Model.Navigation, false)
+
+@{
+    using (this.Html.BeginScriptContext())
+    {
+        this.Html.AddScriptFile("~/js/mylibs/navigation.index.js");
+    }
+
+}

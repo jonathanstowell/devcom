@@ -1,0 +1,248 @@
+»¿Rµ¿
+ƒRþ
+TRPNBrightside.Config.Accounts.CPR.WebUI.Api.CPRController..ctor(ICPRModelService)
+PRLJBrightside.Config.Accounts.CPR.WebUI.Api.CPRController.Get(CPRSearchModel)Tx:\repos\brightside.config\brightside.config.accounts.cpr.webui\api\cprcontroller.cs
+çRâ
+jRfÄä„É‹é«èXBrightside.Config.WebUI.MvcApplication.Application_AcquireRequestState(Object,EventArgs)(
+@R<8Brightside.Config.WebUI.MvcApplication.FakeUserSession()(
+LRH¹˜µï•Ó«è:Brightside.Config.WebUI.MvcApplication.Application_Start()(
+C	R?=Brightside.Config.WebUI.MvcApplication.get_PrincipalFactory()
+H
+RDBBrightside.Config.WebUI.MvcApplication.get_UserPermissionService()
+AR=;Brightside.Config.WebUI.MvcApplication.get_RequestContext()
+ORKIBrightside.Config.WebUI.MvcApplication.Application_PostAuthorizeRequest()Ax:\repos\brightside.config\brightside.config.webui\global.asax.cs
+›R–
+vRrpBrightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.OnAuthorization(AuthorizationContext)
+oRkiBrightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.AuthorizeCore(HttpContextBase)
+bR^\Brightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.get_Permissions()
+hRdbBrightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.set_Permissions(String)
+dR`^Brightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.get_AnyPermission()
+kRgeBrightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.set_AnyPermission(Boolean)
+zRvtBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.OnAuthorization(AuthorizationContext)
+sRomBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.AuthorizeCore(HttpContextBase)
+fRb`Brightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.get_Permissions()
+lRhfBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.set_Permissions(String)
+hRdbBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.get_AnyPermission()
+oRkiBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.set_AnyPermission(Boolean)hx:\repos\brightside.config\brightside.config.infrastructure.web\security\impl\brightsideauthorisation.cs
+ïRê
+FRB@System.Web.Mvc.AuthorizeAttribute.AuthorizeCore(HttpContextBase)
+fRb`System.Web.Mvc.AuthorizeAttribute.CacheValidateHandler(HttpContext,Object,HttpValidationStatus&)
+MRIGSystem.Web.Mvc.AuthorizeAttribute.OnAuthorization(AuthorizationContext)
+WRSQSystem.Web.Mvc.AuthorizeAttribute.HandleUnauthorizedRequest(AuthorizationContext)
+MRIGSystem.Web.Mvc.AuthorizeAttribute.OnCacheAuthorization(HttpContextBase)
+; R75System.Web.Mvc.AuthorizeAttribute.SplitString(String)
+3!R/-System.Web.Mvc.AuthorizeAttribute.get_Roles()
+9"R53System.Web.Mvc.AuthorizeAttribute.set_Roles(String)
+4#R0.System.Web.Mvc.AuthorizeAttribute.get_TypeId()
+3$R/-System.Web.Mvc.AuthorizeAttribute.get_Users()
+9%R53System.Web.Mvc.AuthorizeAttribute.set_Users(String)íc:\users\jonathan.stowell\appdata\local\symbols\src\pdbsrc\public\public\42b47598-1b3c-4204-a801-5d4e7621ffd2\lysa00164\jonathan.stowell\system.web.mvc\68b2330e48624b6c9de05bed1c8c320f1\system.web.mvc\system.web.mvc\authorizeattribute.cs
+™&R”
+“'RŽ‹Brightside.Config.Infrastructure.Web.Security.Impl.ProfileManagement.Login(IPrincipalFactory,Action{IPrincipal},Action{IUser},IUser,String)
+…(R€~Brightside.Config.Infrastructure.Web.Security.Impl.ProfileManagement.Login(IPrincipalFactory,HttpContext,IUser,String,Boolean)
+)RŠ‡Brightside.Config.Infrastructure.Web.Security.Impl.ProfileManagement.RestoreUserFromSession`1(IPrincipalFactory,IUserPermissionService)bx:\repos\brightside.config\brightside.config.infrastructure.web\security\impl\profilemanagement.cs
+·*R²
+x+RtpBrightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.OnAuthorization(AuthorizationContext)(
+q,RmiBrightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.AuthorizeCore(HttpContextBase)(
+d-R`\Brightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.get_Permissions()(
+j.RfbBrightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.set_Permissions(String)(
+f/Rb^Brightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.get_AnyPermission()(
+m0RieBrightside.Config.Infrastructure.Web.Security.Impl.BrightsideAuthorisation.set_AnyPermission(Boolean)(
+1R{–ùæÃþÓ«èmBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.AuthorizeCore(HttpContextBase)(
+z2RvtBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.OnAuthorization(AuthorizationContext)
+f3Rb`Brightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.get_Permissions()
+l4RhfBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.set_Permissions(String)
+h5RdbBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.get_AnyPermission()
+o6RkiBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.set_AnyPermission(Boolean)lx:\repos\brightside.config\brightside.config.infrastructure.web\security\impl\mvc\brightsideauthorisation.cs
+f7Rb`x:\repos\brightside.config\brightside.config.infrastructure.web\controllers\securedcontroller.cs
+±8R¬
+L9RHFBrightside.Config.Accounts.CPR.WebUI.Controllers.CPRController.Index()\x:\repos\brightside.config\brightside.config.accounts.cpr.webui\controllers\cprcontroller.cs
+“:RŽ
+R;RNLBrightside.Config.Customer.Policy.WebUI.Controllers.PolicyController.Index()
+T<RPNBrightside.Config.Customer.Policy.WebUI.Controllers.PolicyController.Details()bx:\repos\brightside.config\brightside.config.customer.policy.webui\controllers\policycontroller.cs
+¢=R
+W>RSQBrightside.Config.Customer.Policy.WebUI.Controllers.PolicyEventController.Index()
+Y?RUSBrightside.Config.Customer.Policy.WebUI.Controllers.PolicyEventController.Details()gx:\repos\brightside.config\brightside.config.customer.policy.webui\controllers\policyeventcontroller.cs
+Â@R½
+|ARxtBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.OnAuthorization(AuthorizationContext)(
+uBRqmBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.AuthorizeCore(HttpContextBase)(
+hCRd`Brightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.get_Permissions()(
+nDRjfBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.set_Permissions(String)(
+jERfbBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.get_AnyPermission()(
+qFRmiBrightside.Config.Infrastructure.Web.Security.Impl.MVC.BrightsideAuthorisation.set_AnyPermission(Boolean)(
+zGRvtBrightside.Config.Infrastructure.Web.Security.Impl.Api.BrightsideAuthorisation.OnAuthorization(AuthorizationContext)
+uHRqmBrightside.Config.Infrastructure.Web.Security.Impl.Api.BrightsideAuthorisation.AuthorizeCore(HttpContextBase)(
+fIRb`Brightside.Config.Infrastructure.Web.Security.Impl.Api.BrightsideAuthorisation.get_Permissions()
+lJRhfBrightside.Config.Infrastructure.Web.Security.Impl.Api.BrightsideAuthorisation.set_Permissions(String)
+hKRdbBrightside.Config.Infrastructure.Web.Security.Impl.Api.BrightsideAuthorisation.get_AnyPermission()
+oLRkiBrightside.Config.Infrastructure.Web.Security.Impl.Api.BrightsideAuthorisation.set_AnyPermission(Boolean)
+ƒMR´ÆÛªÃÓ«èqBrightside.Config.Infrastructure.Web.Security.Impl.Api.BrightsideAuthorisation.OnAuthorization(HttpActionContext)(
+rNRnlBrightside.Config.Infrastructure.Web.Security.Impl.Api.BrightsideAuthorisation.IsAuthorized(HttpContextBase)
+€OR|ææ½šþÓ«ènBrightside.Config.Infrastructure.Web.Security.Impl.Api.BrightsideAuthorisation.IsAuthorized(HttpActionContext)(lx:\repos\brightside.config\brightside.config.infrastructure.web\security\impl\api\brightsideauthorisation.cs
+ŽPR‰
+HQRDBSystem.Web.Http.AuthorizeAttribute.IsAuthorized(HttpActionContext)
+KRRGESystem.Web.Http.AuthorizeAttribute.OnAuthorization(HttpActionContext)
+USRQOSystem.Web.Http.AuthorizeAttribute.HandleUnauthorizedRequest(HttpActionContext)
+MTRIGSystem.Web.Http.AuthorizeAttribute.SkipAuthorization(HttpActionContext)
+<UR86System.Web.Http.AuthorizeAttribute.SplitString(String)
+4VR0.System.Web.Http.AuthorizeAttribute.get_Roles()
+:WR64System.Web.Http.AuthorizeAttribute.set_Roles(String)
+5XR1/System.Web.Http.AuthorizeAttribute.get_TypeId()
+4YR0.System.Web.Http.AuthorizeAttribute.get_Users()
+:ZR64System.Web.Http.AuthorizeAttribute.set_Users(String)ðc:\users\jonathan.stowell\appdata\local\symbols\src\pdbsrc\public\public\42b47598-1b3c-4204-a801-5d4e7621ffd2\lysa00164\jonathan.stowell\system.web.http\af572201601e434680cacd753e5b26a71\system.web.http\system.web.http\authorizeattribute.cs
+`[R\Zx:\repos\brightside.config\brightside.config.infrastructure\security\impl\permissionset.cs
+ª\R¥
+v]RrpBrightside.Config.Infrastructure.Web.ControllerFactory.Castle.WindsorDependencyResolver..ctor(IWindsorContainer)
+j^RfdBrightside.Config.Infrastructure.Web.ControllerFactory.Castle.WindsorDependencyResolver.BeginScope()
+g_RcaBrightside.Config.Infrastructure.Web.ControllerFactory.Castle.WindsorDependencyResolver.Dispose()
+n`RjhBrightside.Config.Infrastructure.Web.ControllerFactory.Castle.WindsorDependencyResolver.GetService(Type)
+oaRkiBrightside.Config.Infrastructure.Web.ControllerFactory.Castle.WindsorDependencyResolver.GetServices(Type)ux:\repos\brightside.config\brightside.config.infrastructure.web\controllerfactory\castle\windsordependencyresolver.cs
+‡bR‚
+]cRYWBrightside.Config.Customer.Policy.WebUI.Api.PolicyController..ctor(IPolicyModelService)
+YdRUSBrightside.Config.Customer.Policy.WebUI.Api.PolicyController.Get(PolicySearchModel)
+MeRIGBrightside.Config.Customer.Policy.WebUI.Api.PolicyController.Get(Int32)
+ffRb^Brightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController..ctor(IPolicyModelService)(
+bgR^ZBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController.Get(PolicySearchModel)(
+VhRRNBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController.Get(Int32)(
+wiRsë™ü‰ÑÔ«èeBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController..ctor(IPolicySamplerModelService)(Zx:\repos\brightside.config\brightside.config.customer.policy.webui\api\policycontroller.cs
+ÿjRú
+gkRcaBrightside.Config.Customer.Policy.WebUI.Api.PolicyEventController..ctor(IPolicyEventModelService)
+ZlRVTBrightside.Config.Customer.Policy.WebUI.Api.PolicyEventController.GetByPolicy(Int32)
+RmRNLBrightside.Config.Customer.Policy.WebUI.Api.PolicyEventController.Get(Int32)_x:\repos\brightside.config\brightside.config.customer.policy.webui\api\policyeventcontroller.cs
+©nR¤
+HoRDBBrightside.Config.Example.WebUI.Controllers.PostController.Index()Xx:\repos\brightside.config\brightside.config.example.webui\controllers\postcontroller.cs
+ŒpR‡
+PqRLJBrightside.Config.User.Account.WebUI.Controllers.AccountController.Login()
+QrRMKBrightside.Config.User.Account.WebUI.Controllers.AccountController.Logout()`x:\repos\brightside.config\brightside.config.user.account.webui\controllers\accountcontroller.cs
+ÁsR¼
+YtRUSBrightside.Config.Customer.Policy.WebUI.Controllers.PolicySamplerController.Index()_x:\repos\brightside.config\brightside.config.customer.policy.webui\controllers\policysampler.cs
+ËuRÆ
+YvRUSBrightside.Config.Customer.Policy.WebUI.Controllers.PolicySamplerController.Index()ix:\repos\brightside.config\brightside.config.customer.policy.webui\controllers\policysamplercontroller.cs
+hwRdbx:\repos\brightside.config\brightside.config.customer.policy.service\ipolicysamplermodelservice.cs
+ÙxRÔ
+LyRHFBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.get_Id()
+QzRMKBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.set_Id(Int32)
+R{RNLBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.get_PolicyId()
+W|RSQBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.set_PolicyId(Int32)
+U}RQOBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.get_Description()
+[~RWUBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.set_Description(String)
+VRRPBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.get_CreationDate()
+_€RZXBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.set_CreationDate(DateTime)
+XRSQBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.get_EffectiveDate()
+`‚R[YBrightside.Config.Customer.Policy.Models.PolicyEventViewModel.set_EffectiveDate(DateTime)[x:\repos\brightside.config\brightside.config.customer.policy.models\policyeventviewmodel.cs
+ÇƒRÁ
+h„RcaBrightside.Config.Customer.Policy.Service.Impl.PolicyEventModelService..ctor(IPolicyEventService)
+S…RNLBrightside.Config.Customer.Policy.Service.Impl.PolicyEventModelService.Get()
+X†RSQBrightside.Config.Customer.Policy.Service.Impl.PolicyEventModelService.Get(Int32)
+`‡R[YBrightside.Config.Customer.Policy.Service.Impl.PolicyEventModelService.GetByPolicy(Int32)
+^ˆRYWBrightside.Config.Customer.Policy.Service.Impl.PolicyEventModelService.Map(PolicyEvent)dx:\repos\brightside.config\brightside.config.customer.policy.service\impl\policyeventmodelservice.cs
+R‰RMKx:\repos\brightside.config\brightside.config.service\ipolicyeventservice.cs
+TŠROMx:\repos\brightside.config\brightside.config.service\ipolicysamplerservice.cs
+ë	‹Rå	
+ðŒRêÞ·¦à£å«èÛBrightside.Config.Service.Impl.PolicySamplerService.Find(Int32,Int32,DateTime,DateTime,Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},String,String,String,Nullable{PolicyStatusId},Nullable{CoverType})(
+ZRUQBrightside.Config.Service.Impl.PolicySamplerService..ctor(Func{ComPolicySampler})(
+NŽRI»»šÙ¢å«è;Brightside.Config.Service.Impl.PolicySamplerService..ctor()(
+ðRê•ûáåå«èÛBrightside.Config.Service.Impl.PolicySamplerService.Find(Int64,Int32,DateTime,DateTime,Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},String,String,String,Nullable{PolicyStatusId},Nullable{CoverType})(Qx:\repos\brightside.config\brightside.config.service\impl\policysamplerservice.cs
+ÏRÉ
+r‘Rm‡¬ÿ•¥å«è_Brightside.Config.Service.Installers.ServiceInstaller.Register(IBootstrapperContainerExtension)(Sx:\repos\brightside.config\brightside.config.service\installers\serviceinstaller.cs
+Ó’RÍ
+H“RCABrightside.Config.Customer.Policy.Models.PolicyViewModel.get_Id()
+M”RHFBrightside.Config.Customer.Policy.Models.PolicyViewModel.set_Id(Int32)
+M•RHFBrightside.Config.Customer.Policy.Models.PolicyViewModel.get_Product()
+S–RNLBrightside.Config.Customer.Policy.Models.PolicyViewModel.set_Product(String)
+R—RMKBrightside.Config.Customer.Policy.Models.PolicyViewModel.get_PolicyNumber()
+X˜RSQBrightside.Config.Customer.Policy.Models.PolicyViewModel.set_PolicyNumber(String)
+Y™RTRBrightside.Config.Customer.Policy.Models.PolicyViewModel.get_InsurerPolicyNumber()
+_šRZXBrightside.Config.Customer.Policy.Models.PolicyViewModel.set_InsurerPolicyNumber(String)
+N›RIGBrightside.Config.Customer.Policy.Models.PolicyViewModel.get_Proposer()
+TœROMBrightside.Config.Customer.Policy.Models.PolicyViewModel.set_Proposer(String)
+JRECBrightside.Config.Customer.Policy.Models.PolicyViewModel.get_From()
+RžRMKBrightside.Config.Customer.Policy.Models.PolicyViewModel.set_From(DateTime)
+HŸRCABrightside.Config.Customer.Policy.Models.PolicyViewModel.get_To()
+P RKIBrightside.Config.Customer.Policy.Models.PolicyViewModel.set_To(DateTime)
+L¡RGEBrightside.Config.Customer.Policy.Models.PolicyViewModel.get_Status()
+R¢RMKBrightside.Config.Customer.Policy.Models.PolicyViewModel.set_Status(String)
+Q£RLHBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Id()(
+V¤RQMBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Id(Int32)(
+U¥RPLBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Policy()(
+Z¦RUQBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Policy(Int32)(
+X§RSOBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_PolicyIds()(
+]¨RXTBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_PolicyIds(Int32)(
+V©RQMBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Results()(
+[ªRVRBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Results(Int32)(
+d«R_¿‚¶ÎÃÔ«èQBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_ResultCount()(
+a¬R\¿‚¶ÎÃÔ«èNBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Products()(
+g­Rb¿‚¶ÎÃÔ«èTBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Products(String)(
+e®R`¿‚¶ÎÃÔ«èRBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Underwriters()(
+k¯Rf¿‚¶ÎÃÔ«èXBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Underwriters(String)(
+c°R^¿‚¶ÎÃÔ«èPBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Extensions()(
+i±Rd¿‚¶ÎÃÔ«èVBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Extensions(String)(
+g²Rb¿‚¶ÎÃÔ«èTBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_PolicyStatuses()(
+m³Rh¿‚¶ÎÃÔ«èZBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_PolicyStatuses(String)(
+c´R^¿‚¶ÎÃÔ«èPBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_CoverTypes()(
+iµRd¿‚¶ÎÃÔ«èVBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_CoverTypes(String)(Vx:\repos\brightside.config\brightside.config.customer.policy.models\policyviewmodel.cs
+
+¶RŠ
+
+T·ROMBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Results()
+Y¸RTRBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Results(Int32)
+X¹RSQBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_ResultCount()
+UºRPNBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Products()
+[»RVTBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Products(String)
+Y¼RTRBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Underwriters()
+_½RZXBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Underwriters(String)
+W¾RRPBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_Extensions()
+]¿RXVBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_Extensions(String)
+[ÀRVTBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_PolicyStatuses()
+aÁR\ZBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_PolicyStatuses(String)
+WÂRRPBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.get_CoverTypes()
+]ÃRXVBrightside.Config.Customer.Policy.Models.PolicySamplerViewModel.set_CoverTypes(String)]x:\repos\brightside.config\brightside.config.customer.policy.models\policysamplerviewmodel.cs
+Û
+ÄRÕ
+
+…ÅRÿÌ‚ëÚÌÔ«èðBrightside.Config.Customer.Policy.Service.Impl.PolicySamplerModelService.Find(Int32,Int32,DateTime,DateTime,Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},String,String,String,Nullable{PolicyStatusId},Nullable{CoverType})(
+xÆRsØ„ŒÚÝå«èeBrightside.Config.Customer.Policy.Service.Impl.PolicySamplerModelService..ctor(IPolicySamplerService)(
+aÇR\îê’¤Óå«èNBrightside.Config.Customer.Policy.Service.Impl.PolicySamplerModelService.Get()(
+…ÈRÿÂ–®óäå«èðBrightside.Config.Customer.Policy.Service.Impl.PolicySamplerModelService.Find(Int64,Int32,DateTime,DateTime,Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},String,String,String,Nullable{PolicyStatusId},Nullable{CoverType})(fx:\repos\brightside.config\brightside.config.customer.policy.service\impl\policysamplermodelservice.cs
+£ÉR
+^ÊRYWBrightside.Config.Customer.Policy.Service.Impl.PolicyModelService..ctor(IPolicyService)
+NËRIGBrightside.Config.Customer.Policy.Service.Impl.PolicyModelService.Get()
+SÌRNLBrightside.Config.Customer.Policy.Service.Impl.PolicyModelService.Get(Int32)
+_ÍRZXBrightside.Config.Customer.Policy.Service.Impl.PolicyModelService.Get(PolicySearchModel)
+TÎROMBrightside.Config.Customer.Policy.Service.Impl.PolicyModelService.Map(Policy)_x:\repos\brightside.config\brightside.config.customer.policy.service\impl\policymodelservice.cs
+ÓÏRÍ
+†ÐR€ã›ôæÎÔ«èrBrightside.Config.Accounts.CPR.Service.Installers.PolicyServiceInstaller.Register(IBootstrapperContainerExtension)(
+WÑRRPBrightside.Config.Accounts.CPR.Service.Installers.PolicyServiceInstaller.Reset()ix:\repos\brightside.config\brightside.config.customer.policy.service\installers\policyserviceinstaller.cs
+´ÒR®
+xÓRs‚ÈÔŒáå«èeBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController..ctor(IPolicySamplerModelService)(
+\ÔRW±¨ð¦äå«èIBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController.Get()(
+ÿÕRùÃäÂÿÆå«èêBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController.Get(Int32,Int32,DateTime,DateTime,Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},String,String,String,Nullable{PolicyStatusId},Nullable{CoverType})(
+þÖRø––…¼Éå«èéBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController.Po(Int32,Int32,DateTime,DateTime,Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},String,String,String,Nullable{PolicyStatusId},Nullable{CoverType})(
+€×Rúª‰º¾Éå«èëBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController.Post(Int32,Int32,DateTime,DateTime,Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Int32},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},Nullable{Boolean},String,String,String,Nullable{PolicyStatusId},Nullable{CoverType})(
+gØRb^Brightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController..ctor(IPolicyModelService)(
+cÙR^ZBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController.Get(PolicySearchModel)(
+WÚRRNBrightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController.Get(Int32)(
+ ÛRš°’Îõàå«è‹Brightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController..ctor(IPolicySamplerModelService,IAccessTheCurrentUser{BrightsideUser})(
+ ÜRš·¯˜›áå«è‹Brightside.Config.Customer.Policy.WebUI.Api.PolicySamplerController..ctor(IAccessTheCurrentUser{BrightsideUser},IPolicySamplerModelService)(ax:\repos\brightside.config\brightside.config.customer.policy.webui\api\policysamplercontroller.cs
+TÝROMx:\repos\brightside.devcom\brightside.config.data\installers\datainstaller.csãÞRÝ
+”ßRŽaàR\X:\repos\Brightside.DevCom\Brightside.Config.Example.WebUI.Tests\Api\PostsControllerTests.csJBrightside.Config.Example.WebUI.Tests.Api.PostsControllerTests.GetAllPosts (BWáRRBrightside.Config.Example.WebUI.Tests\Brightside.Config.Example.WebUI.Tests.csprojh
+eâR`àNBrightside.Config.Example.WebUI.Tests.Api.PostsControllerTests.GetExistingPost (Báh
+hãRcàQBrightside.Config.Example.WebUI.Tests.Api.PostsControllerTests.GetNonExistingPost (Báh
+ÎäRÈhåRcX:\repos\Brightside.DevCom\Brightside.Config.Example.WebUI.Tests\Commands\CreatePostCommandTests.csQBrightside.Config.Example.WebUI.Tests.Commands.CreatePostCommandTests.InvalidPost (Báh
+fæRaåOBrightside.Config.Example.WebUI.Tests.Commands.CreatePostCommandTests.ValidPost (Báh
+ÎçRÈhèRcX:\repos\Brightside.DevCom\Brightside.Config.Example.WebUI.Tests\Commands\UpdatePostCommandTests.csQBrightside.Config.Example.WebUI.Tests.Commands.UpdatePostCommandTests.InvalidPost (Báh
+féRaèOBrightside.Config.Example.WebUI.Tests.Commands.UpdatePostCommandTests.ValidPost (Báh
+ÓêRÍhëRcX:\repos\Brightside.DevCom\Brightside.Config.Example.WebUI.Tests\Controllers\PostControllerTests.csVBrightside.Config.Example.WebUI.Tests.Controllers.PostControllerTests.IndexReturnsView (Báh
+ÜìRÖlíRgX:\repos\Brightside.DevCom\Brightside.Config.Example.WebUI.Tests\Validators\CreatePostValidatorTests.cs[Brightside.Config.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullAuthorInvalid (Báh
+sîRní\Brightside.Config.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyAuthorInvalid (Báh
+sïRní\Brightside.Config.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullContentInvalid (Báh
+tðRoí]Brightside.Config.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyContentInvalid (Báh
+fñRaíOBrightside.Config.Example.WebUI.Tests.Validators.CreatePostValidatorTests.Valid (Báh
+åòRßnóRiX:\repos\Brightside.DevCom\Brightside.Config.Example.WebUI.Tests\Validators\ProvidePostValidatorsTests.csbBrightside.Config.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.CreateReturnsValidator (Báh
+yôRtóbBrightside.Config.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.UpdateReturnsValidator (Báh
+|õRwóeBrightside.Config.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullCreateThrowsException (Báh
+|öRwóeBrightside.Config.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullUpdateThrowsException (Báh
+Ü÷RÖløRgX:\repos\Brightside.DevCom\Brightside.Config.Example.WebUI.Tests\Validators\UpdatePostValidatorTests.cs[Brightside.Config.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullAuthorInvalid (Báh
+sùRnø\Brightside.Config.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyAuthorInvalid (Báh
+súRnø\Brightside.Config.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullContentInvalid (Báh
+tûRoø]Brightside.Config.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyContentInvalid (Báh
+füRaøOBrightside.Config.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.Valid (Báh
