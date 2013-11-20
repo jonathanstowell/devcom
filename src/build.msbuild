@@ -23,7 +23,7 @@
 
   <Target Name="build-brightside-devcom">
     <MSBuild Projects="Brightside.DevCom.sln" Properties="Configuration=$(Configuration)" Targets="Build"/>
-    <Message Text="BUILT BRIGHTSIDE CONFIG"></Message>
+    <Message Text="BUILT BRIGHTSIDE DEVCOM"></Message>
   </Target>
   
   <Target Name="knockout">

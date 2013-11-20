@@ -1,25 +1,32 @@
 ﻿<section id="posts">
+
     <h2>Posts</h2>
     
-    <button class="btn btn-large btn-primary" type="button" data-bind="click: create">Create</button>
-    <hr />
-    <div data-bind="visible: loading"><i class="icon-spinner icon-spin"></i></div>
-    <div data-bind="visible: !loading(), foreach: posts">
-        <div class="post-content hand" data-bind="click: $parent.details">
-            <div data-bind="text: author"></div>
-            <div data-bind="text: content"></div>
-        </div>
+    <div data-bind="with: list">
+        <button class="btn btn-large btn-primary" type="button" data-bind="click: create">Create</button>
         <hr />
+        <div data-bind="visible: loading"><i class="icon-spinner icon-spin"></i></div>
+        <div data-bind="visible: !loading(), foreach: posts">
+            <div class="post-content hand" data-bind="click: $parent.details">
+                <div data-bind="text: author"></div>
+                <div data-bind="text: content"></div>
+            </div>
+            <hr />
+        </div>
+    </div>
+    
+    <div data-bind="with: create">
+        @this.Html.Partial("Create")
+    </div>
+    <div data-bind="with: details">
+        @this.Html.Partial("Details")
     </div>
 </section>
-
-@this.Html.Partial("Create")
-@this.Html.Partial("Details")
 
 @{
     using (this.Html.BeginScriptContext())
     {
-        this.Html.AddScriptFile("~/js/mylibs/plugins/post.index.js");
+        this.Html.AddScriptFile("~/js/mylibs/plugins/viewmodels/posts/index.viewmodel.js");
     }
 
 }

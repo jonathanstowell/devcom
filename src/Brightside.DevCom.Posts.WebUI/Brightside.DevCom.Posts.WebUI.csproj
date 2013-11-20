@@ -147,11 +147,12 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="js\post.create.js" />
-    <Content Include="js\post.details.js" />
-    <Content Include="js\post.index.js" />
+    <Content Include="js\models\posts\create.model.js" />
+    <Content Include="js\models\posts\details.model.js" />
+    <Content Include="js\models\posts\list.model.js" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js\viewmodels\posts\index.viewmodel.js" />
     <Content Include="Views\Post\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
