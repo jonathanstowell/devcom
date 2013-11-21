@@ -139,7 +139,6 @@
     <Folder Include="Commands\" />
     <Folder Include="Handlers\" />
     <Folder Include="Hubs\" />
-    <Folder Include="js\" />
     <Folder Include="Models\" />
     <Folder Include="Validations\Impl\" />
     <Folder Include="Validations\Validators\" />
@@ -178,6 +177,10 @@
       <Project>{fc4f7122-f7a6-470e-b974-55a6f8f4db09}</Project>
       <Name>Brightside.DevCom.Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\models\knockout\observable.model.js" />
+    <Content Include="js\viewmodels\knockout\index.viewmodel.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />

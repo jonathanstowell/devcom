@@ -30,8 +30,8 @@ namespace Brightside.DevCom.Knockout.WebUI.Installers
             {
                 return new NavigationNode
                            {
-                               Name = "Knockout", 
-                               Icon = "icon-file-text", 
+                               Name = "Knockout",
+                               Icon = "icon-cogs", 
                                Action = "Index",
                                Controller = "Knockout"
                            };

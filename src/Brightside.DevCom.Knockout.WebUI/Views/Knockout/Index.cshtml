@@ -1,4 +1,108 @@
 ﻿<section id="knockout">
-    <h2>Knockout</h2>
+    <div class="page-header">
+        <h2>Knockout <small>Observables / Observable Arrays</small></h2>
+    </div>
+    
+    <div>
+        <p>
+            Allow you to update your view automatically when they change by notifying subscribers.
+        </p>
+        <pre>
+            <code>
+                var model = {};
 
+                model.name = ko.observable("Gary");
+                model.books = ko.observableArray(["The Hobbit", "Game of Thrones"]);
+                model.book = ko.observable();
+                model.addToBooks = function () {
+                    model.books.push(model.book());
+                };
+                model.removeFromBooks = function (i) {
+                    model.books.splice(i, 1);
+                };
+            </code>
+        </pre>
+        <p>
+            You can bind these properties to your view using the data-bind attribute.
+        </p>
+        <pre>
+            <code>
+                &lt;p&gt;
+                    Name: &lt;span data-bind=&quot;text: name&quot;&gt;&lt;/span&gt;
+                &lt;/p&gt;
+            
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Update on Exit&lt;/label&gt;
+                    &lt;input class=&quot;form-control&quot; data-bind=&quot;value: name&quot; /&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Update on Key Down&lt;/label&gt;
+                    &lt;input class=&quot;form-control&quot; data-bind=&quot;value: name, valueUpdate: 'afterkeydown'&quot; /&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;ul class=&quot;list-group&quot; data-bind=&quot;foreach: books&quot;&gt;
+                        &lt;li class=&quot;list-group-item&quot;&gt;
+                            &lt;span data-bind=&quot;text: $data&quot;&gt;&lt;/span&gt; &lt;i class=&quot;icon-remove-circle&quot; data-bind=&quot;click: function () { $parent.removeFromBooks($index()) }&quot;&gt;&lt;/i&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;div class=&quot;input-group&quot;&gt;
+                        &lt;input class=&quot;form-control&quot; data-bind=&quot;value: book&quot; /&gt;
+                        &lt;span class=&quot;input-group-btn&quot;&gt;
+                            &lt;button class=&quot;btn btn-primary&quot; data-bind=&quot;click: addToBooks&quot;&gt;Add&lt;/button&gt;
+                        &lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+        <p>
+            You can bind the model to the view using applyBindings. The first arguement is your model, 
+            the second is a jquery selector which selects the section of the DOM you wish to bind to.
+        </p>
+        <pre>
+            <code>
+            ko.applyBindings(model, jQuery('#container')[0]);
+            </code>
+        </pre>
+        <p>
+            Example:
+        </p>
+        <div class="panel panel-info" data-bind="with: observable">
+            <div class="panel-body">
+                <p>
+                    Name: <span data-bind="text: name"></span>
+                </p>
+            
+                <div class="form-group">
+                    <label>Update on Exit</label>
+                    <input class="form-control" data-bind="value: name" />
+                </div>
+                <div class="form-group">
+                    <label>Update on Key Down</label>
+                    <input class="form-control" data-bind="value: name, valueUpdate: 'afterkeydown'" />
+                </div>
+
+                <div class="form-group">
+                    <ul class="list-group" data-bind="foreach: books">
+                        <li class="list-group-item">
+                            <span data-bind="text: $data"></span> <i class="icon-remove-circle" data-bind="click: function () { $parent.removeFromBooks($index()) }"></i>
+                        </li>
+                    </ul>
+                    <div class="input-group">
+                        <input class="form-control" data-bind="value: book" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" data-bind="click: addToBooks">Add</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
+@{
+    using (this.Html.BeginScriptContext())
+    {
+        this.Html.AddScriptFile("~/js/mylibs/plugins/viewmodels/knockout/index.viewmodel.js");
+    }
+}

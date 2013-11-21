@@ -30,8 +30,8 @@ namespace Brightside.DevCom.Posts.WebUI.Installers
             {
                 return new NavigationNode
                            {
-                               Name = "Posts", 
-                               Icon = "icon-file-text", 
+                               Name = "Posts",
+                               Icon = "icon-envelope-alt", 
                                Action = "Index", 
                                Controller = "Post"
                            };
