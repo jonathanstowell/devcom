@@ -45,6 +45,12 @@ namespace Brightside.DevCom.Knockout.WebUI.Installers
                                         Name = "Computed",
                                         Action = "Computed",
                                         Controller = "Knockout"
+                                    },
+                                    new NavigationNode
+                                    {
+                                        Name = "Subscriptions",
+                                        Action = "Subscriptions",
+                                        Controller = "Knockout"
                                     }
                                 }
                            };

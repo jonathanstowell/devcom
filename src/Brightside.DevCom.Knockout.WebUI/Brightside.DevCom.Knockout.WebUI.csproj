@@ -149,6 +149,7 @@
     </None>
     <None Include="Views\Knockout\Computed.cshtml" />
     <None Include="Views\Knockout\Index.cshtml" />
+    <None Include="Views\Knockout\Subscriptions.cshtml" />
     <None Include="Views\Web.config">
       <SubType>Designer</SubType>
     </None>
@@ -181,8 +182,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="js\models\knockout\computed.model.js" />
+    <Content Include="js\models\knockout\subscriptions.model.js" />
     <Content Include="js\models\knockout\observable.model.js" />
     <Content Include="js\viewmodels\knockout\computed.viewmodel.js" />
+    <Content Include="js\viewmodels\knockout\subscriptions.viewmodel.js" />
     <Content Include="js\viewmodels\knockout\index.viewmodel.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

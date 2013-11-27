@@ -1,0 +1,60 @@
+﻿<section id="knockout-subscriptions">
+    <div class="page-header">
+        <h2>Knockout <small>Subscriptions</small></h2>
+    </div>
+    
+    <div>
+        <p>
+             For advanced users, if you want to register your own subscriptions to be notified of changes to observables, you can call their subscribe function.
+        </p>
+        <pre>
+            <code>
+                var model = {};
+
+                model.include = ko.observable(false);
+                model.content = ko.observable();
+                
+                model.include.subscribe(function(include) {
+                    if (include) {
+                        model.content("New Content");
+                    }
+                    else {
+                        model.content("");
+                    }
+                });
+            </code>
+        </pre>
+        <pre>
+            <code>
+                   &lt;div class=&quot;panel-body&quot;&gt;
+                        &lt;div class=&quot;input-group&quot;&gt;
+                            &lt;span class=&quot;input-group-addon&quot;&gt;
+                                &lt;input name=&quot;include-content&quot; type=&quot;checkbox&quot; data-bind=&quot;checked: include&quot; /&gt;
+                            &lt;/span&gt;
+                            &lt;input class=&quot;form-control&quot; name=&quot;content&quot; data-bind=&quot;value: content, disable: !include()&quot; /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+            </code>
+        </pre>
+        <p>
+            Example:
+        </p>
+        <div class="panel panel-info" data-bind="with: subscriptions">
+            <div class="panel-body">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <input name="include-content" type="checkbox" data-bind="checked: include" />
+                    </span>
+                    <input class="form-control" name="content" data-bind="value: content, disable: !include()" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@{
+    using (this.Html.BeginScriptContext())
+    {
+        this.Html.AddScriptFile("~/js/mylibs/plugins/viewmodels/knockout/subscriptions.viewmodel.js");
+    }
+}

@@ -1,4 +1,4 @@
-çõRáõ
+ÒõRÎõ
 ÉR˛
 TRPNBrightside.Config.Accounts.CPR.WebUI.Api.CPRController..ctor(ICPRModelService)
 PRLJBrightside.Config.Accounts.CPR.WebUI.Api.CPRController.Get(CPRSearchModel)Tx:\repos\brightside.config\brightside.config.accounts.cpr.webui\api\cprcontroller.cs
@@ -621,133 +621,134 @@ _„RZXBrightside.DevCom.Example.WebUI.Commands.UpdatePostCommand.set_Results(V
 ˇ‰R˘
 IÂRDBBrightside.DevCom.Example.WebUI.Controllers.PostController.Index()
 MÊRHFBrightside.DevCom.Example.WebUI.Controllers.KnockoutController.Index()]x:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\controllers\postcontroller.cs
-ßÁR°
+ãÁRÖ
 KËRFBBrightside.DevCom.Example.WebUI.Controllers.PostController.Index()(
 LÈRGCBrightside.DevCom.Knockout.WebUI.Controllers.PostController.Index()(
 NÍRIGBrightside.DevCom.Knockout.WebUI.Controllers.KnockoutController.Index()
-QÎRLJBrightside.DevCom.Knockout.WebUI.Controllers.KnockoutController.Computed()ax:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\controllers\knockoutcontroller.cs
-ëÏRã
-_ÌRZXBrightside.DevCom.Example.WebUI.Handlers.PostWasCreatedHandler..ctor(IConnectionManager)
-\ÓRWUBrightside.DevCom.Example.WebUI.Handlers.PostWasCreatedHandler.Handle(PostWasCreated)
-gÔRb`Brightside.DevCom.Example.WebUI.Handlers.PostWasCreatedHandler.OnError(PostWasCreated,Exception)ax:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\handlers\postwascreatedhandler.cs
-VRQOx:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\hubs\posthub.cs
-ÍÒR‰
-xÚRs˙¡ôà±Î¨ËeBrightside.DevCom.Example.WebUI.Installers.ExampleInstaller.Register(IBootstrapperContainerExtension)(
-LÛRGCBrightside.DevCom.Example.WebUI.Installers.ExampleInstaller.Reset()(
-mÙRhfBrightside.DevCom.Knockout.WebUI.Installers.ExampleInstaller.Register(IBootstrapperContainerExtension)
-KıRFDBrightside.DevCom.Knockout.WebUI.Installers.ExampleInstaller.Reset()^x:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\installers\exampleinstaller.cs
-ùˆRó
-[˜RVÂﬁöƒ´Î¨ËHBrightside.DevCom.Example.WebUI.Installers.RegisterNavigation.get_Path()(
-X¯RSOBrightside.DevCom.Example.WebUI.Installers.RegisterNavigation.get_Permissions()(
-b˘R]YBrightside.DevCom.Example.WebUI.Installers.RegisterNavigation.get_RequireAllPermissions()(
-\˙RWıé√ı≠ØÆËIBrightside.DevCom.Knockout.WebUI.Installers.RegisterNavigation.get_Path()(
-W˚RRPBrightside.DevCom.Knockout.WebUI.Installers.RegisterNavigation.get_Permissions()
-a¸R\ZBrightside.DevCom.Knockout.WebUI.Installers.RegisterNavigation.get_RequireAllPermissions()`x:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\installers\registernavigation.cs
-¶˝R†
-H˛RCABrightside.DevCom.Example.WebUI.Models.PostViewModel.get_Author()
-NˇRIGBrightside.DevCom.Example.WebUI.Models.PostViewModel.set_Author(String)
-IÄRDBBrightside.DevCom.Example.WebUI.Models.PostViewModel.get_Content()
-OÅRJHBrightside.DevCom.Example.WebUI.Models.PostViewModel.set_Content(String)
-DÇR?=Brightside.DevCom.Example.WebUI.Models.PostViewModel.get_Id()
-IÉRDBBrightside.DevCom.Example.WebUI.Models.PostViewModel.set_Id(Int32)Wx:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\models\postviewmodel.cs
-∂ÑR∞
-äÖRÑÅBrightside.DevCom.Example.WebUI.Validations.Impl.ProvidePostValidators..ctor(Func{CreatePostValidator},Func{UpdatePostValidator})
-ZÜRUSBrightside.DevCom.Example.WebUI.Validations.Impl.ProvidePostValidators.get_Create()
-ZáRUSBrightside.DevCom.Example.WebUI.Validations.Impl.ProvidePostValidators.get_Update()ix:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\validations\impl\providepostvalidators.cs
-–àR 
-YâRTRBrightside.DevCom.Example.WebUI.Validations.Validators.CreatePostValidator..ctor()mx:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\validations\validators\createpostvalidator.cs
-ùäRó
-VãRQOBrightside.DevCom.Example.WebUI.Validations.IProvidePostValidators.get_Create()
-VåRQOBrightside.DevCom.Example.WebUI.Validations.IProvidePostValidators.get_Update()ex:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\validations\iprovidepostvalidators.cs
-‘çRŒ
-<éR75Brightside.DevCom.Entities.Posts.Comment.get_Author()
-BèR=;Brightside.DevCom.Entities.Posts.Comment.set_Author(String)
-=êR86Brightside.DevCom.Entities.Posts.Comment.get_Content()
-CëR><Brightside.DevCom.Entities.Posts.Comment.set_Content(String)
-:íR53Brightside.DevCom.Entities.Posts.Comment.get_Post()
->ìR97Brightside.DevCom.Entities.Posts.Comment.set_Post(Post)Jx:\repos\brightside.devcom\src\brightside.devcom.entities\posts\comment.cs
-“îRÃ
-ZïRUSBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.InvalidPost()
-TñROMBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.Setup()
-WóRRPBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.TearDown()
-XòRSQBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.ValidPost()ex:\repos\brightside.devcom\src\brightside.devcom.posts.webui.tests\commands\updatepostcommandtests.cs
-“ôRÃ
-ZöRUSBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.InvalidPost()
-TõROMBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.Setup()
-WúRRPBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.TearDown()
-XùRSQBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.ValidPost()ex:\repos\brightside.devcom\src\brightside.devcom.posts.webui.tests\commands\createpostcommandtests.cs
-˛ûR¯
-4üR/-Brightside.DevCom.Entities.Posts.Post..ctor()
-9†R42Brightside.DevCom.Entities.Posts.Post.get_Author()
-?°R:8Brightside.DevCom.Entities.Posts.Post.set_Author(String)
-;¢R64Brightside.DevCom.Entities.Posts.Post.get_Comments()
-@£R;9Brightside.DevCom.Entities.Posts.Post.set_Comments(IList)
-:§R53Brightside.DevCom.Entities.Posts.Post.get_Content()
-@•R;9Brightside.DevCom.Entities.Posts.Post.set_Content(String)Gx:\repos\brightside.devcom\src\brightside.devcom.entities\posts\post.cs
-ç¶Rá
-UßRPNBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject`2.Equals(Object)
-V®RQOBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject`2.Equals(TEntity)
-T©ROMBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject`2.GetHashCode()
-M™RHFBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject.get_Id()
-P´RKIBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject.set_Id(TId)_x:\repos\brightside.devcom\src\brightside.devcom.infrastructure\entities\impl\businessobject.cs
-Æ¨R®
-n≠RigBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2..ctor(IDatabaseContextFactory{T1})
-UÆRPNBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Create(T)
-ZØRUSBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Delete(Object)
-U∞RPNBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Delete(T)
-o±RjhBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Delete(Expression{Func{T,Boolean}})
-U≤RPNBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Update(T)dx:\repos\brightside.devcom\src\brightside.devcom.infrastructure\data\repositories\impl\repository.cs
-ç≥Rá
-v¥RqoBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2..ctor(IDatabaseContextFactory{T1})
-YµRTRBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.All()
-y∂RtrBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Contains(Expression{Func{T,Boolean}})
-w∑RrpBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Filter(Expression{Func{T,Boolean}})
-å∏RÜÉBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Filter(Expression{Func{T,Boolean}},Int32&,Int32,Int32)
-bπR][Brightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Find(Object[])
-u∫RpnBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Find(Expression{Func{T,Boolean}})
-¶ªR†ùBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Get(Expression{Func{T,Boolean}},Func{IQueryable{T},IOrderedQueryable{T}},String)
-ëºRãàBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.GetAllPaged(Int32,Int32,SortBy,Expression{Func{T,Boolean}})
-cΩR^\Brightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.GetById(Object)
-eæR`^Brightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Include(DbSet{T})
-]øRXVBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository.get_Count()lx:\repos\brightside.devcom\src\brightside.devcom.infrastructure\data\repositories\impl\readonlyrepository.cs
-´¿R•
-G¡RB@Brightside.DevCom.Posts.WebUI.Controllers.PostController.Index()Zx:\repos\brightside.devcom\src\brightside.devcom.posts.webui\controllers\postcontroller.cs
-è¬Râ
-ë√RãàBrightside.DevCom.Posts.WebUI.Api.PostsController..ctor(IPostService,Func{CreatePostCommand},Func{UpdatePostCommand},IConnectionManager)
->ƒR97Brightside.DevCom.Posts.WebUI.Api.PostsController.Get()
-C≈R><Brightside.DevCom.Posts.WebUI.Api.PostsController.Get(Int32)
-L∆RGEBrightside.DevCom.Posts.WebUI.Api.PostsController.Post(PostViewModel)
-K«RFDBrightside.DevCom.Posts.WebUI.Api.PostsController.Put(PostViewModel)Sx:\repos\brightside.devcom\src\brightside.devcom.posts.webui\api\postscontroller.cs
-O»RJHx:\repos\brightside.devcom\src\brightside.devcom.service\ipostservice.cs
-ë…Rã
-D R?=Brightside.Config.Service.Impl.PostService..ctor(IUnitOfWork)
->ÀR97Brightside.Config.Service.Impl.PostService.Create(Post)
-7ÃR20Brightside.Config.Service.Impl.PostService.Get()
-@ÕR;9Brightside.Config.Service.Impl.PostService.GetById(Int32)
->ŒR97Brightside.Config.Service.Impl.PostService.Update(Post)Hx:\repos\brightside.config\brightside.config.service\impl\postservice.cs
-ˆœR
-Y–RTÆö†ÉŒñ≠ËFBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_Path()(
-T—ROMBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_Permissions()
-^“RYWBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_RequireAllPermissions()]x:\repos\brightside.devcom\src\brightside.devcom.posts.webui\installers\registernavigation.csÌ”RÁ
-í‘Råc’R^X:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Api\PostsControllerTests.csJBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetAllPosts (BS÷RNBrightside.DevCom.Posts.WebUI.Tests\Brightside.DevCom.Posts.WebUI.Tests.csprojh
-e◊R`’NBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetExistingPost (B÷h
-hÿRc’QBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetNonExistingPost (B÷h
-–ŸR j⁄ReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Commands\CreatePostCommandTests.csQBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.InvalidPost (B÷h
-f€Ra⁄OBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.ValidPost (B÷h
-–‹R j›ReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Commands\UpdatePostCommandTests.csQBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.InvalidPost (B÷h
-fﬁRa›OBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.ValidPost (B÷h
-’ﬂRœj‡ReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Controllers\PostControllerTests.csVBrightside.DevCom.Example.WebUI.Tests.Controllers.PostControllerTests.IndexReturnsView (B÷h
-ﬂ·RŸn‚RiX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\CreatePostValidatorTests.cs\Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyAuthorInvalid (B÷h
-t„Ro‚]Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyContentInvalid (B÷h
-r‰Rm‚[Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullAuthorInvalid (B÷h
-sÂRn‚\Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullContentInvalid (B÷h
-fÊRa‚OBrightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.Valid (B÷h
-ÁÁR·pËRkX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\ProvidePostValidatorsTests.csbBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.CreateReturnsValidator (B÷h
-|ÈRwËeBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullCreateThrowsException (B÷h
-|ÍRwËeBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullUpdateThrowsException (B÷h
-yÎRtËbBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.UpdateReturnsValidator (B÷h
-ﬂÏRŸnÌRiX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\UpdatePostValidatorTests.cs\Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyAuthorInvalid (B÷h
-tÓRoÌ]Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyContentInvalid (B÷h
-rÔRmÌ[Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullAuthorInvalid (B÷h
-sRnÌ\Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullContentInvalid (B÷h
-fÒRaÌOBrightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.Valid (B÷h
+QÎRLJBrightside.DevCom.Knockout.WebUI.Controllers.KnockoutController.Computed()
+bÏR]¡ŸÂ≈Í±ÆËOBrightside.DevCom.Knockout.WebUI.Controllers.KnockoutController.Subscriptions()(ax:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\controllers\knockoutcontroller.cs
+ëÌRã
+_ÓRZXBrightside.DevCom.Example.WebUI.Handlers.PostWasCreatedHandler..ctor(IConnectionManager)
+\ÔRWUBrightside.DevCom.Example.WebUI.Handlers.PostWasCreatedHandler.Handle(PostWasCreated)
+gRb`Brightside.DevCom.Example.WebUI.Handlers.PostWasCreatedHandler.OnError(PostWasCreated,Exception)ax:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\handlers\postwascreatedhandler.cs
+VÒRQOx:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\hubs\posthub.cs
+ÍÚR‰
+xÛRs˙¡ôà±Î¨ËeBrightside.DevCom.Example.WebUI.Installers.ExampleInstaller.Register(IBootstrapperContainerExtension)(
+LÙRGCBrightside.DevCom.Example.WebUI.Installers.ExampleInstaller.Reset()(
+mıRhfBrightside.DevCom.Knockout.WebUI.Installers.ExampleInstaller.Register(IBootstrapperContainerExtension)
+KˆRFDBrightside.DevCom.Knockout.WebUI.Installers.ExampleInstaller.Reset()^x:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\installers\exampleinstaller.cs
+ù˜Ró
+[¯RVÂﬁöƒ´Î¨ËHBrightside.DevCom.Example.WebUI.Installers.RegisterNavigation.get_Path()(
+X˘RSOBrightside.DevCom.Example.WebUI.Installers.RegisterNavigation.get_Permissions()(
+b˙R]YBrightside.DevCom.Example.WebUI.Installers.RegisterNavigation.get_RequireAllPermissions()(
+\˚RW°„Ñ˙Ç≤ÆËIBrightside.DevCom.Knockout.WebUI.Installers.RegisterNavigation.get_Path()(
+W¸RRPBrightside.DevCom.Knockout.WebUI.Installers.RegisterNavigation.get_Permissions()
+a˝R\ZBrightside.DevCom.Knockout.WebUI.Installers.RegisterNavigation.get_RequireAllPermissions()`x:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\installers\registernavigation.cs
+¶˛R†
+HˇRCABrightside.DevCom.Example.WebUI.Models.PostViewModel.get_Author()
+NÄRIGBrightside.DevCom.Example.WebUI.Models.PostViewModel.set_Author(String)
+IÅRDBBrightside.DevCom.Example.WebUI.Models.PostViewModel.get_Content()
+OÇRJHBrightside.DevCom.Example.WebUI.Models.PostViewModel.set_Content(String)
+DÉR?=Brightside.DevCom.Example.WebUI.Models.PostViewModel.get_Id()
+IÑRDBBrightside.DevCom.Example.WebUI.Models.PostViewModel.set_Id(Int32)Wx:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\models\postviewmodel.cs
+∂ÖR∞
+äÜRÑÅBrightside.DevCom.Example.WebUI.Validations.Impl.ProvidePostValidators..ctor(Func{CreatePostValidator},Func{UpdatePostValidator})
+ZáRUSBrightside.DevCom.Example.WebUI.Validations.Impl.ProvidePostValidators.get_Create()
+ZàRUSBrightside.DevCom.Example.WebUI.Validations.Impl.ProvidePostValidators.get_Update()ix:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\validations\impl\providepostvalidators.cs
+–âR 
+YäRTRBrightside.DevCom.Example.WebUI.Validations.Validators.CreatePostValidator..ctor()mx:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\validations\validators\createpostvalidator.cs
+ùãRó
+VåRQOBrightside.DevCom.Example.WebUI.Validations.IProvidePostValidators.get_Create()
+VçRQOBrightside.DevCom.Example.WebUI.Validations.IProvidePostValidators.get_Update()ex:\repos\brightside.devcom\src\brightside.devcom.knockout.webui\validations\iprovidepostvalidators.cs
+‘éRŒ
+<èR75Brightside.DevCom.Entities.Posts.Comment.get_Author()
+BêR=;Brightside.DevCom.Entities.Posts.Comment.set_Author(String)
+=ëR86Brightside.DevCom.Entities.Posts.Comment.get_Content()
+CíR><Brightside.DevCom.Entities.Posts.Comment.set_Content(String)
+:ìR53Brightside.DevCom.Entities.Posts.Comment.get_Post()
+>îR97Brightside.DevCom.Entities.Posts.Comment.set_Post(Post)Jx:\repos\brightside.devcom\src\brightside.devcom.entities\posts\comment.cs
+“ïRÃ
+ZñRUSBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.InvalidPost()
+TóROMBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.Setup()
+WòRRPBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.TearDown()
+XôRSQBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.ValidPost()ex:\repos\brightside.devcom\src\brightside.devcom.posts.webui.tests\commands\updatepostcommandtests.cs
+“öRÃ
+ZõRUSBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.InvalidPost()
+TúROMBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.Setup()
+WùRRPBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.TearDown()
+XûRSQBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.ValidPost()ex:\repos\brightside.devcom\src\brightside.devcom.posts.webui.tests\commands\createpostcommandtests.cs
+˛üR¯
+4†R/-Brightside.DevCom.Entities.Posts.Post..ctor()
+9°R42Brightside.DevCom.Entities.Posts.Post.get_Author()
+?¢R:8Brightside.DevCom.Entities.Posts.Post.set_Author(String)
+;£R64Brightside.DevCom.Entities.Posts.Post.get_Comments()
+@§R;9Brightside.DevCom.Entities.Posts.Post.set_Comments(IList)
+:•R53Brightside.DevCom.Entities.Posts.Post.get_Content()
+@¶R;9Brightside.DevCom.Entities.Posts.Post.set_Content(String)Gx:\repos\brightside.devcom\src\brightside.devcom.entities\posts\post.cs
+çßRá
+U®RPNBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject`2.Equals(Object)
+V©RQOBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject`2.Equals(TEntity)
+T™ROMBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject`2.GetHashCode()
+M´RHFBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject.get_Id()
+P¨RKIBrightside.DevCom.Infrastructure.Entities.Impl.BusinessObject.set_Id(TId)_x:\repos\brightside.devcom\src\brightside.devcom.infrastructure\entities\impl\businessobject.cs
+Æ≠R®
+nÆRigBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2..ctor(IDatabaseContextFactory{T1})
+UØRPNBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Create(T)
+Z∞RUSBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Delete(Object)
+U±RPNBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Delete(T)
+o≤RjhBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Delete(Expression{Func{T,Boolean}})
+U≥RPNBrightside.DevCom.Infrastructure.Data.Repositories.Impl.Repository`2.Update(T)dx:\repos\brightside.devcom\src\brightside.devcom.infrastructure\data\repositories\impl\repository.cs
+ç¥Rá
+vµRqoBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2..ctor(IDatabaseContextFactory{T1})
+Y∂RTRBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.All()
+y∑RtrBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Contains(Expression{Func{T,Boolean}})
+w∏RrpBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Filter(Expression{Func{T,Boolean}})
+åπRÜÉBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Filter(Expression{Func{T,Boolean}},Int32&,Int32,Int32)
+b∫R][Brightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Find(Object[])
+uªRpnBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Find(Expression{Func{T,Boolean}})
+¶ºR†ùBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Get(Expression{Func{T,Boolean}},Func{IQueryable{T},IOrderedQueryable{T}},String)
+ëΩRãàBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.GetAllPaged(Int32,Int32,SortBy,Expression{Func{T,Boolean}})
+cæR^\Brightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.GetById(Object)
+eøR`^Brightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository`2.Include(DbSet{T})
+]¿RXVBrightside.DevCom.Infrastructure.Data.Repositories.Impl.ReadOnlyRepository.get_Count()lx:\repos\brightside.devcom\src\brightside.devcom.infrastructure\data\repositories\impl\readonlyrepository.cs
+´¡R•
+G¬RB@Brightside.DevCom.Posts.WebUI.Controllers.PostController.Index()Zx:\repos\brightside.devcom\src\brightside.devcom.posts.webui\controllers\postcontroller.cs
+è√Râ
+ëƒRãàBrightside.DevCom.Posts.WebUI.Api.PostsController..ctor(IPostService,Func{CreatePostCommand},Func{UpdatePostCommand},IConnectionManager)
+>≈R97Brightside.DevCom.Posts.WebUI.Api.PostsController.Get()
+C∆R><Brightside.DevCom.Posts.WebUI.Api.PostsController.Get(Int32)
+L«RGEBrightside.DevCom.Posts.WebUI.Api.PostsController.Post(PostViewModel)
+K»RFDBrightside.DevCom.Posts.WebUI.Api.PostsController.Put(PostViewModel)Sx:\repos\brightside.devcom\src\brightside.devcom.posts.webui\api\postscontroller.cs
+O…RJHx:\repos\brightside.devcom\src\brightside.devcom.service\ipostservice.cs
+ë Rã
+DÀR?=Brightside.Config.Service.Impl.PostService..ctor(IUnitOfWork)
+>ÃR97Brightside.Config.Service.Impl.PostService.Create(Post)
+7ÕR20Brightside.Config.Service.Impl.PostService.Get()
+@ŒR;9Brightside.Config.Service.Impl.PostService.GetById(Int32)
+>œR97Brightside.Config.Service.Impl.PostService.Update(Post)Hx:\repos\brightside.config\brightside.config.service\impl\postservice.cs
+ˆ–R
+Y—RTÆö†ÉŒñ≠ËFBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_Path()(
+T“ROMBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_Permissions()
+^”RYWBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_RequireAllPermissions()]x:\repos\brightside.devcom\src\brightside.devcom.posts.webui\installers\registernavigation.csÌ‘RÁ
+í’Råc÷R^X:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Api\PostsControllerTests.csJBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetAllPosts (BS◊RNBrightside.DevCom.Posts.WebUI.Tests\Brightside.DevCom.Posts.WebUI.Tests.csprojh
+eÿR`÷NBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetExistingPost (B◊h
+hŸRc÷QBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetNonExistingPost (B◊h
+–⁄R j€ReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Commands\CreatePostCommandTests.csQBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.InvalidPost (B◊h
+f‹Ra€OBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.ValidPost (B◊h
+–›R jﬁReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Commands\UpdatePostCommandTests.csQBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.InvalidPost (B◊h
+fﬂRaﬁOBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.ValidPost (B◊h
+’‡Rœj·ReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Controllers\PostControllerTests.csVBrightside.DevCom.Example.WebUI.Tests.Controllers.PostControllerTests.IndexReturnsView (B◊h
+ﬂ‚RŸn„RiX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\CreatePostValidatorTests.cs\Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyAuthorInvalid (B◊h
+t‰Ro„]Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyContentInvalid (B◊h
+rÂRm„[Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullAuthorInvalid (B◊h
+sÊRn„\Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullContentInvalid (B◊h
+fÁRa„OBrightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.Valid (B◊h
+ÁËR·pÈRkX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\ProvidePostValidatorsTests.csbBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.CreateReturnsValidator (B◊h
+|ÍRwÈeBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullCreateThrowsException (B◊h
+|ÎRwÈeBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullUpdateThrowsException (B◊h
+yÏRtÈbBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.UpdateReturnsValidator (B◊h
+ﬂÌRŸnÓRiX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\UpdatePostValidatorTests.cs\Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyAuthorInvalid (B◊h
+tÔRoÓ]Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyContentInvalid (B◊h
+rRmÓ[Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullAuthorInvalid (B◊h
+sÒRnÓ\Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullContentInvalid (B◊h
+fÚRaÓOBrightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.Valid (B◊h

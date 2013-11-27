@@ -33,6 +33,11 @@ namespace Brightside.DevCom.Knockout.WebUI.Controllers
             return this.View("Computed");
         }
 
+        public ActionResult Subscriptions()
+        {
+            return this.View("Subscriptions");
+        }
+
         #endregion
     }
 }
