@@ -1,0 +1,72 @@
+﻿<section id="knockout-computed">
+    <div class="page-header">
+        <h2>Knockout <small>Computed</small></h2>
+    </div>
+    
+    <div>
+        <p>
+             Functions that are dependent on one or more other observables, and will automatically update whenever any of these dependencies change.
+        </p>
+        <pre>
+            <code>
+                var model = {};
+
+                model.left = ko.observable(1);
+                model.right = ko.observable(2);
+                
+                model.total = ko.computed(function() {
+                    return model.left() + model.right();
+                });
+            </code>
+        </pre>
+        <p>
+            You can bind these properties to your view using the data-bind attribute.
+        </p>
+        <pre>
+            <code>
+                   &lt;div class=&quot;panel-body&quot;&gt;
+                    &lt;div class=&quot;form-group row&quot;&gt;
+                        &lt;div class=&quot;col-md-1&quot;&gt;
+                            &lt;input class=&quot;form-control&quot; data-bind=&quot;value: left, valueUpdate: 'afterkeydown'&quot; /&gt;
+                        &lt;/div&gt;
+                        &lt;span class=&quot;col-md-1 text-center&quot;&gt;+&lt;/span&gt;
+                        &lt;div class=&quot;col-md-1&quot;&gt;
+                            &lt;input class=&quot;form-control&quot; data-bind=&quot;value: right, valueUpdate: 'afterkeydown'&quot; /&gt;
+                        &lt;/div&gt;
+                        &lt;span class=&quot;col-md-1 text-center&quot;&gt;=&lt;/span&gt;
+                        &lt;span class=&quot;col-md-1 text-center&quot; data-bind=&quot;text: total&quot;&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;alert alert-warning&quot; data-bind=&quot;visible: total() &gt; 50 &amp;&amp; total() &lt; 500&quot;&gt;Crazy numbers!&lt;/div&gt;
+                    &lt;div class=&quot;alert alert-danger&quot; data-bind=&quot;visible: total() &gt; 500&quot;&gt;Xmas bonus, yes please...&lt;/div&gt;
+                    &lt;/div&gt;
+            </code>
+        </pre>
+        <p>
+            Example:
+        </p>
+        <div class="panel panel-info" data-bind="with: computed">
+            <div class="panel-body">
+                <div class="form-group row">
+                    <div class="col-md-1">
+                        <input class="form-control" data-bind="value: left, valueUpdate: 'afterkeydown'" />
+                    </div>
+                    <span class="col-md-1 text-center">+</span>
+                    <div class="col-md-1">
+                        <input class="form-control" data-bind="value: right, valueUpdate: 'afterkeydown'" />
+                    </div>
+                    <span class="col-md-1 text-center">=</span>
+                    <span class="col-md-1 text-center" data-bind="text: total"></span>
+                </div>
+                <div class="alert alert-warning" data-bind="visible: total() > 50 && total() < 500">Crazy numbers!</div>
+                <div class="alert alert-danger" data-bind="visible: total() > 500">Xmas bonus, yes please...</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@{
+    using (this.Html.BeginScriptContext())
+    {
+        this.Html.AddScriptFile("~/js/mylibs/plugins/viewmodels/knockout/computed.viewmodel.js");
+    }
+}

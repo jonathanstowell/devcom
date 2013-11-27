@@ -1,6 +1,6 @@
 ﻿require.config({
     // relative url from where modules will load
-    baseUrl: "js/",
+    baseUrl: "/js/",
     paths: {
         "jquery": "//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min",
         "knockout": "libs/knockout-2.2.0",

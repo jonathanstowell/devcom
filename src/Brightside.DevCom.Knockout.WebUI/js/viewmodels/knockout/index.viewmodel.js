@@ -10,6 +10,6 @@
     };
 
     $(function () {
-        ko.applyBindings(model, jQuery('#knockout')[0]);
+        ko.applyBindings(model, jQuery('#knockout-observables')[0]);
     });
 });

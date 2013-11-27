@@ -28,6 +28,11 @@ namespace Brightside.DevCom.Knockout.WebUI.Controllers
             return this.View("Index");
         }
 
+        public ActionResult Computed()
+        {
+            return this.View("Computed");
+        }
+
         #endregion
     }
 }
