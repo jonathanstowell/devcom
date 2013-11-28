@@ -31,16 +31,16 @@
             index.formModal.modal('hide');
             $(document).trigger('postCreated', [response]);
         })
-            .fail(function(request, status, error) {
-                if (request.status == 400) {
-                    var validationResult = $.parseJSON(request.responseText);
-                    ko.validation.rebindValidations(index, validationResult.Results.Errors);
-                }
+        .fail(function(request, status, error) {
+            if (request.status == 400) {
+                var validationResult = $.parseJSON(request.responseText);
+                ko.validation.rebindValidations(index, validationResult.Results.Errors);
+            }
 
-                if (request.status == 500) {
-                    alert("internal server");
-                }
-            });
+            if (request.status == 500) {
+                alert("internal server");
+            }
+        });
     };
 
     $(document).bind('loadPostCreation', function(e, id) {

@@ -14,10 +14,13 @@ namespace Brightside.DevCom.WebUI.Installers
     using Bootstrap;
     using Bootstrap.Extensions.StartupTasks;
 
+    using Brightside.DevCom.Infrastructure.Web.SignalR;
+
     using Castle.MicroKernel.Registration;
     using Castle.Windsor;
 
     using Microsoft.AspNet.SignalR;
+    using Microsoft.AspNet.SignalR.Hubs;
     using Microsoft.AspNet.SignalR.Infrastructure;
 
     using SignalR.Castle.Windsor;
@@ -48,11 +51,12 @@ namespace Brightside.DevCom.WebUI.Installers
             var resolver = new WindsorDependencyResolver(container);
 
             container.Register(
-                Component.For<IConnectionManager>().ImplementedBy<ConnectionManager>(), 
-                Component.For<IDependencyResolver>().Instance(resolver));
+                Component.For<IConnectionManager>().ImplementedBy<ConnectionManager>(),
+                Component.For<IDependencyResolver>().Instance(resolver),
+                Component.For<IAssemblyLocator>().ImplementedBy<PluginAssemblyLocator>());
 
             GlobalHost.DependencyResolver = resolver;
-            RouteTable.Routes.MapHubs();
+            RouteTable.Routes.MapHubs(new HubConfiguration { Resolver = resolver });
         }
 
         #endregion

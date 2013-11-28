@@ -35,6 +35,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bootstrapper, Version=2.0.3.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Bootstrapper.2.0.3.9\lib\Net40\Bootstrapper.dll</HintPath>
+    </Reference>
     <Reference Include="Castle.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Castle.Core.3.2.0\lib\net40-client\Castle.Core.dll</HintPath>
@@ -185,6 +189,7 @@
     <Compile Include="Plugin\Views\ViewKeyGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.log4net.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignalR\WindsorHubManager.cs" />
     <Compile Include="ViewEngines\Plugin\PluginViewEngine.cs" />
     <Compile Include="ViewEngines\Precompiled\PrecompiledView.cs" />
     <Compile Include="ViewEngines\Precompiled\WindsorPrecompiledViewEngine.cs" />

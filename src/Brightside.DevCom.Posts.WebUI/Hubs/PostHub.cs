@@ -8,6 +8,8 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace Brightside.DevCom.Posts.WebUI.Hubs
 {
+    using Brightside.DevCom.Entities.Posts;
+
     using Microsoft.AspNet.SignalR;
 
     /// <summary>

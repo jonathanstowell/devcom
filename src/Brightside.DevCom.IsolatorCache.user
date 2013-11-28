@@ -1,4 +1,4 @@
-ÒõRÎõ
+áıRÅı
 ÉR˛
 TRPNBrightside.Config.Accounts.CPR.WebUI.Api.CPRController..ctor(ICPRModelService)
 PRLJBrightside.Config.Accounts.CPR.WebUI.Api.CPRController.Get(CPRSearchModel)Tx:\repos\brightside.config\brightside.config.accounts.cpr.webui\api\cprcontroller.cs
@@ -729,26 +729,139 @@ DÀR?=Brightside.Config.Service.Impl.PostService..ctor(IUnitOfWork)
 ˆ–R
 Y—RTÆö†ÉŒñ≠ËFBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_Path()(
 T“ROMBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_Permissions()
-^”RYWBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_RequireAllPermissions()]x:\repos\brightside.devcom\src\brightside.devcom.posts.webui\installers\registernavigation.csÌ‘RÁ
-í’Råc÷R^X:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Api\PostsControllerTests.csJBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetAllPosts (BS◊RNBrightside.DevCom.Posts.WebUI.Tests\Brightside.DevCom.Posts.WebUI.Tests.csprojh
-eÿR`÷NBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetExistingPost (B◊h
-hŸRc÷QBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetNonExistingPost (B◊h
-–⁄R j€ReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Commands\CreatePostCommandTests.csQBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.InvalidPost (B◊h
-f‹Ra€OBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.ValidPost (B◊h
-–›R jﬁReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Commands\UpdatePostCommandTests.csQBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.InvalidPost (B◊h
-fﬂRaﬁOBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.ValidPost (B◊h
-’‡Rœj·ReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Controllers\PostControllerTests.csVBrightside.DevCom.Example.WebUI.Tests.Controllers.PostControllerTests.IndexReturnsView (B◊h
-ﬂ‚RŸn„RiX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\CreatePostValidatorTests.cs\Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyAuthorInvalid (B◊h
-t‰Ro„]Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyContentInvalid (B◊h
-rÂRm„[Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullAuthorInvalid (B◊h
-sÊRn„\Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullContentInvalid (B◊h
-fÁRa„OBrightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.Valid (B◊h
-ÁËR·pÈRkX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\ProvidePostValidatorsTests.csbBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.CreateReturnsValidator (B◊h
-|ÍRwÈeBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullCreateThrowsException (B◊h
-|ÎRwÈeBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullUpdateThrowsException (B◊h
-yÏRtÈbBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.UpdateReturnsValidator (B◊h
-ﬂÌRŸnÓRiX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\UpdatePostValidatorTests.cs\Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyAuthorInvalid (B◊h
-tÔRoÓ]Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyContentInvalid (B◊h
-rRmÓ[Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullAuthorInvalid (B◊h
-sÒRnÓ\Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullContentInvalid (B◊h
-fÚRaÓOBrightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.Valid (B◊h
+^”RYWBrightside.DevCom.Posts.WebUI.Installers.RegisterNavigation.get_RequireAllPermissions()]x:\repos\brightside.devcom\src\brightside.devcom.posts.webui\installers\registernavigation.cs
+°‘Rõ
+K’RFÖœªﬂ‘≥ÆË8Brightside.DevCom.Posts.WebUI.Hubs.PostHub.NewPost(Post)(Lx:\repos\brightside.devcom\src\brightside.devcom.posts.webui\hubs\posthub.cs
+ô÷Rì
+j◊RecBrightside.DevCom.Posts.WebUI.Installers.ExampleInstaller.Register(IBootstrapperContainerExtension)
+HÿRCABrightside.DevCom.Posts.WebUI.Installers.ExampleInstaller.Reset()[x:\repos\brightside.devcom\src\brightside.devcom.posts.webui\installers\exampleinstaller.cs
+ıŸRÔ
+D⁄R?=Brightside.DevCom.WebUI.Installers.SignalRStartupTask.Reset()
+N€RI…ßâ¢ù∆ÆË;Brightside.DevCom.WebUI.Installers.SignalRStartupTask.Run()(Wx:\repos\brightside.devcom\src\brightside.devcom.webui\installers\signalrstartuptask.cs
+•‹Rü
+P›RKISignalR.Castle.Windsor.WindsorDependencyResolver..ctor(IWindsorContainer)
+HﬁRCASignalR.Castle.Windsor.WindsorDependencyResolver.GetService(Type)
+IﬂRDBSignalR.Castle.Windsor.WindsorDependencyResolver.GetServices(Type)µc:\users\jonathan.stowell\appdata\local\jetbrains\resharper\v7.1\solutioncaches\_resharper.brightside.devcom.869197610\decompiler\decompiler\a3\4bce361a\windsordependencyresolver.cs
+ñ‡Rê
+_·RZXSystem.Web.Routing.SignalRRouteExtensions.MapConnection`1(RouteCollection,String,String)
+w‚RrpSystem.Web.Routing.SignalRRouteExtensions.MapConnection`1(RouteCollection,String,String,ConnectionConfiguration)
+ç„RáÑSystem.Web.Routing.SignalRRouteExtensions.MapConnection`1(RouteCollection,String,String,ConnectionConfiguration,Action{IAppBuilder})
+z‰RusSystem.Web.Routing.SignalRRouteExtensions.MapConnection(RouteCollection,String,String,Type,ConnectionConfiguration)
+êÂRäáSystem.Web.Routing.SignalRRouteExtensions.MapConnection(RouteCollection,String,String,Type,ConnectionConfiguration,Action{IAppBuilder})
+IÊRDBSystem.Web.Routing.SignalRRouteExtensions.MapHubs(RouteCollection)
+ZÁRUSSystem.Web.Routing.SignalRRouteExtensions.MapHubs(RouteCollection,HubConfiguration)
+aËR\ZSystem.Web.Routing.SignalRRouteExtensions.MapHubs(RouteCollection,String,HubConfiguration)
+uÈRpnSystem.Web.Routing.SignalRRouteExtensions.MapHubs(RouteCollection,String,HubConfiguration,Action{IAppBuilder})
+|ÍRwuSystem.Web.Routing.SignalRRouteExtensions.MapHubs(RouteCollection,String,String,HubConfiguration,Action{IAppBuilder})
+aÎR\ZSystem.Web.Routing.SignalRRouteExtensions.InitializeProtectedData(ConnectionConfiguration)≤c:\users\jonathan.stowell\appdata\local\jetbrains\resharper\v7.1\solutioncaches\_resharper.brightside.devcom.869197610\decompiler\decompiler\80\0139af09\signalrrouteextensions.cs
+àÏRÇ
+]ÌRXVBrightside.DevCom.Posts.WebUI.Handlers.PostWasCreatedHandler..ctor(IConnectionManager)
+ZÓRUSBrightside.DevCom.Posts.WebUI.Handlers.PostWasCreatedHandler.Handle(PostWasCreated)
+eÔR`^Brightside.DevCom.Posts.WebUI.Handlers.PostWasCreatedHandler.OnError(PostWasCreated,Exception)^x:\repos\brightside.devcom\src\brightside.devcom.posts.webui\handlers\postwascreatedhandler.cs
+ò>Rí>
+VÒRQMBrightside.DevCom.Infrastructure.Web.SignalR.WindsorHubManager.GetHub(String)(
+lÚRgcBrightside.DevCom.Infrastructure.Web.SignalR.WindsorHubManager.GetHubs(Func{HubDescriptor,Boolean})(
+ZÛRUQBrightside.DevCom.Infrastructure.Web.SignalR.WindsorHubManager.ResolveHub(String)(
+_ÙRZ±æÜ˜æ¥ÆËLBrightside.DevCom.Infrastructure.Web.SignalR.WindsorHubManager.ResolveHubs()(
+uıRplBrightside.DevCom.Infrastructure.Web.SignalR.WindsorHubManager.GetHubMethod(String,String,IList{IJsonValue})(
+|ˆRwsBrightside.DevCom.Infrastructure.Web.SignalR.WindsorHubManager.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+b˜R]YBrightside.DevCom.Infrastructure.Web.SignalR.WindsorHubManager..ctor(IDependencyResolver)(
+U¯RPLBrightside.DevCom.Infrastructure.Web.SignalR.Plus..ctor(IDependencyResolver)(
+I˘RD@Brightside.DevCom.Infrastructure.Web.SignalR.Plus.GetHub(String)(
+_˙RZVBrightside.DevCom.Infrastructure.Web.SignalR.Plus.GetHubs(Func{HubDescriptor,Boolean})(
+M˚RHDBrightside.DevCom.Infrastructure.Web.SignalR.Plus.ResolveHub(String)(
+H¸RC?Brightside.DevCom.Infrastructure.Web.SignalR.Plus.ResolveHubs()(
+h˝Rc_Brightside.DevCom.Infrastructure.Web.SignalR.Plus.GetHubMethod(String,String,IList{IJsonValue})(
+o˛RjfBrightside.DevCom.Infrastructure.Web.SignalR.Plus.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+WˇRRNBrightside.DevCom.Infrastructure.Web.SignalR.Plugin..ctor(IDependencyResolver)(
+KÄRFBBrightside.DevCom.Infrastructure.Web.SignalR.Plugin.GetHub(String)(
+aÅR\XBrightside.DevCom.Infrastructure.Web.SignalR.Plugin.GetHubs(Func{HubDescriptor,Boolean})(
+OÇRJFBrightside.DevCom.Infrastructure.Web.SignalR.Plugin.ResolveHub(String)(
+JÉREABrightside.DevCom.Infrastructure.Web.SignalR.Plugin.ResolveHubs()(
+jÑReaBrightside.DevCom.Infrastructure.Web.SignalR.Plugin.GetHubMethod(String,String,IList{IJsonValue})(
+qÖRlhBrightside.DevCom.Infrastructure.Web.SignalR.Plugin.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+[ÜRVRBrightside.DevCom.Infrastructure.Web.SignalR.PluginAsse..ctor(IDependencyResolver)(
+OáRJFBrightside.DevCom.Infrastructure.Web.SignalR.PluginAsse.GetHub(String)(
+eàR`\Brightside.DevCom.Infrastructure.Web.SignalR.PluginAsse.GetHubs(Func{HubDescriptor,Boolean})(
+SâRNJBrightside.DevCom.Infrastructure.Web.SignalR.PluginAsse.ResolveHub(String)(
+NäRIEBrightside.DevCom.Infrastructure.Web.SignalR.PluginAsse.ResolveHubs()(
+nãRieBrightside.DevCom.Infrastructure.Web.SignalR.PluginAsse.GetHubMethod(String,String,IList{IJsonValue})(
+uåRplBrightside.DevCom.Infrastructure.Web.SignalR.PluginAsse.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+\çRWSBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssem..ctor(IDependencyResolver)(
+PéRKGBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssem.GetHub(String)(
+fèRa]Brightside.DevCom.Infrastructure.Web.SignalR.PluginAssem.GetHubs(Func{HubDescriptor,Boolean})(
+TêROKBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssem.ResolveHub(String)(
+OëRJFBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssem.ResolveHubs()(
+oíRjfBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssem.GetHubMethod(String,String,IList{IJsonValue})(
+vìRqmBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssem.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+]îRXTBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemb..ctor(IDependencyResolver)(
+QïRLHBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemb.GetHub(String)(
+gñRb^Brightside.DevCom.Infrastructure.Web.SignalR.PluginAssemb.GetHubs(Func{HubDescriptor,Boolean})(
+UóRPLBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemb.ResolveHub(String)(
+PòRKGBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemb.ResolveHubs()(
+pôRkgBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemb.GetHubMethod(String,String,IList{IJsonValue})(
+wöRrnBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemb.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+^õRYUBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembl..ctor(IDependencyResolver)(
+RúRMIBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembl.GetHub(String)(
+hùRc_Brightside.DevCom.Infrastructure.Web.SignalR.PluginAssembl.GetHubs(Func{HubDescriptor,Boolean})(
+VûRQMBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembl.ResolveHub(String)(
+QüRLHBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembl.ResolveHubs()(
+q†RlhBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembl.GetHubMethod(String,String,IList{IJsonValue})(
+x°RsoBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembl.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+_¢RZVBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembly..ctor(IDependencyResolver)(
+S£RNJBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembly.GetHub(String)(
+i§Rd`Brightside.DevCom.Infrastructure.Web.SignalR.PluginAssembly.GetHubs(Func{HubDescriptor,Boolean})(
+W•RRNBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembly.ResolveHub(String)(
+R¶RMIBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembly.ResolveHubs()(
+rßRmiBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembly.GetHubMethod(String,String,IList{IJsonValue})(
+y®RtpBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssembly.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+b©R]YBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoc..ctor(IDependencyResolver)(
+V™RQMBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoc.GetHub(String)(
+l´RgcBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoc.GetHubs(Func{HubDescriptor,Boolean})(
+Z¨RUQBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoc.ResolveHub(String)(
+U≠RPLBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoc.ResolveHubs()(
+uÆRplBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoc.GetHubMethod(String,String,IList{IJsonValue})(
+|ØRwsBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoc.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+c∞R^ZBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoca..ctor(IDependencyResolver)(
+W±RRNBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoca.GetHub(String)(
+m≤RhdBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoca.GetHubs(Func{HubDescriptor,Boolean})(
+[≥RVRBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoca.ResolveHub(String)(
+V¥RQMBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoca.ResolveHubs()(
+vµRqmBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoca.GetHubMethod(String,String,IList{IJsonValue})(
+}∂RxtBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLoca.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+f∑Ra]Brightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLocator..ctor(IDependencyResolver)(
+Z∏RUQBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLocator.GetHub(String)(
+pπRkgBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLocator.GetHubs(Func{HubDescriptor,Boolean})(
+^∫RYUBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLocator.ResolveHub(String)(
+YªRTPBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLocator.ResolveHubs()(
+yºRtpBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLocator.GetHubMethod(String,String,IList{IJsonValue})(
+ÄΩR{wBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLocator.GetHubMethods(String,Func{MethodDescriptor,Boolean})(
+eæR`ôÓ®√ö∆ÆËRBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLocator.GetAssemblies()(
+jøReaBrightside.DevCom.Infrastructure.Web.SignalR.PluginAssemblyLocator..ctor(IPluginAssemblyProvider)(`x:\repos\brightside.devcom\src\brightside.devcom.infrastructure.web\signalr\windsorhubmanager.cs
+“¿RÃ
+g¡Rb`Brightside.DevCom.Infrastructure.Plugin.IPluginAssemblyProvider.get_PluginAssembliesByFullName()ax:\repos\brightside.devcom\src\brightside.devcom.infrastructure\plugin\ipluginassemblyprovider.cs
+ü¬Rô
+V√RQOBrightside.DevCom.WebUI.Installers.AppDomainAssemblyResolverStartupTask.Reset()
+TƒROMBrightside.DevCom.WebUI.Installers.AppDomainAssemblyResolverStartupTask.Run()ix:\repos\brightside.devcom\src\brightside.devcom.webui\installers\appdomainassemblyresolverstartuptask.csÌ≈RÁ
+í∆Råc«R^X:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Api\PostsControllerTests.csJBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetAllPosts (BS»RNBrightside.DevCom.Posts.WebUI.Tests\Brightside.DevCom.Posts.WebUI.Tests.csprojh
+e…R`«NBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetExistingPost (B»h
+h Rc«QBrightside.DevCom.Example.WebUI.Tests.Api.PostsControllerTests.GetNonExistingPost (B»h
+–ÀR jÃReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Commands\CreatePostCommandTests.csQBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.InvalidPost (B»h
+fÕRaÃOBrightside.DevCom.Example.WebUI.Tests.Commands.CreatePostCommandTests.ValidPost (B»h
+–ŒR jœReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Commands\UpdatePostCommandTests.csQBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.InvalidPost (B»h
+f–RaœOBrightside.DevCom.Example.WebUI.Tests.Commands.UpdatePostCommandTests.ValidPost (B»h
+’—Rœj“ReX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Controllers\PostControllerTests.csVBrightside.DevCom.Example.WebUI.Tests.Controllers.PostControllerTests.IndexReturnsView (B»h
+ﬂ”RŸn‘RiX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\CreatePostValidatorTests.cs\Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyAuthorInvalid (B»h
+t’Ro‘]Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.EmptyContentInvalid (B»h
+r÷Rm‘[Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullAuthorInvalid (B»h
+s◊Rn‘\Brightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.NullContentInvalid (B»h
+fÿRa‘OBrightside.DevCom.Example.WebUI.Tests.Validators.CreatePostValidatorTests.Valid (B»h
+ÁŸR·p⁄RkX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\ProvidePostValidatorsTests.csbBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.CreateReturnsValidator (B»h
+|€Rw⁄eBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullCreateThrowsException (B»h
+|‹Rw⁄eBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.NullUpdateThrowsException (B»h
+y›Rt⁄bBrightside.DevCom.Example.WebUI.Tests.Validators.ProvidePostValidatorsTests.UpdateReturnsValidator (B»h
+ﬂﬁRŸnﬂRiX:\repos\Brightside.DevCom\src\Brightside.DevCom.Posts.WebUI.Tests\Validators\UpdatePostValidatorTests.cs\Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyAuthorInvalid (B»h
+t‡Roﬂ]Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.EmptyContentInvalid (B»h
+r·Rmﬂ[Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullAuthorInvalid (B»h
+s‚Rnﬂ\Brightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.NullContentInvalid (B»h
+f„RaﬂOBrightside.DevCom.Example.WebUI.Tests.Validators.UpdatePostValidatorTests.Valid (B»h

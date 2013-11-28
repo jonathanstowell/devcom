@@ -60,7 +60,7 @@
 
     <script>
         require(['jquery', 'signalr.hubs'], function($) {
-            $.connection.hub.start();
+            $.connection.hub.start({ waitForPageLoad: false });
         });
     </script>
 
